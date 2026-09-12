@@ -16,7 +16,7 @@ how a system scales from a handful of users to a billion.
 `Capacity Estimation` · `Traffic Estimation` · `RPS` · `Read vs Write Traffic` · `Peak RPS`
 
 ---
-
+<!-- 
 ### 02 · 🏗️ Architecture
 
 | Topic |
@@ -115,7 +115,7 @@ how a system scales from a handful of users to a billion.
 | [Payment System](10-case-studies/payment-system.md) |
 
 ---
-
+-->
 ## 🧭 How to Use This Repo
 
 Each topic follows a standard note format:
