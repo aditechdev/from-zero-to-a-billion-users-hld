@@ -126,6 +126,7 @@ Start with `01-fundamentals/` and work through the topics in order.
 
 The keywords listed below each topic make it easy to search for specific concepts using `Ctrl+F` or GitHub search.
 
+---
 ## 🗺️ Roadmap
 
 ```text
