@@ -1,4 +1,8 @@
 # 🏛️ HLD Fundamentals
+![What is HLD](https://img.shields.io/badge/-What%20is%20HLD-6366f1) 
+![Functional Requirements](https://img.shields.io/badge/-Functional%20Requirements-6366f1)
+![Non-Functional Requirements](https://img.shields.io/badge/-Non--Functional%20Requirements-6366f1)
+![Architecture Thinking](https://img.shields.io/badge/-Architecture%20Thinking-6366f1)
 
 ## 🧠 What is HLD?
 High-Level Design (HLD) is the process of designing the overall architecture of a software system.
