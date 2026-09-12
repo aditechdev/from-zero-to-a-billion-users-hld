@@ -131,7 +131,7 @@ The keywords listed below each topic make it easy to search for specific concept
 ## 🗺️ Roadmap
 
 ```text
-01 · HLD FUNDAMENTALS (~2–3 hrs)
+01 · HLD FUNDAMENTALS (~8–11 hrs)
 │
 ├── HLD Fundamentals (~2–3 hrs)
 │   ├── What is HLD? (~20 min)                 ✅
