@@ -130,96 +130,96 @@ The keywords listed below each topic make it easy to search for specific concept
 ## 🗺️ Roadmap
 
 ```text
-01 · HLD FUNDAMENTALS (~8–11 hrs)
+01 · HLD FUNDAMENTALS (~8–11 hrs)                  ✅
 │
-├── HLD Fundamentals (~2–3 hrs)
-│   ├── What is HLD? (~20 min)                 ✅
-│   ├── Why HLD? (~15 min)                     ✅
-│   ├── Functional Requirements (~20 min)     ✅
-│   ├── Non-Functional Requirements (~25 min) ✅
-│   ├── Functional vs Non-Functional (~15 min)✅
-│   └── Basic HLD Thinking (~30–40 min)       ✅
+├── HLD Fundamentals (~2–3 hrs)                    ✅
+│   ├── What is HLD? (~20 min)                     ✅
+│   ├── Why HLD? (~15 min)                         ✅
+│   ├── Functional Requirements (~20 min)          ✅
+│   ├── Non-Functional Requirements (~25 min)      ✅
+│   ├── Functional vs Non-Functional (~15 min)     ✅
+│   └── Basic HLD Thinking (~30–40 min)            ✅
 │
-└── Capacity Estimation (~6–8 hrs)
+└── Capacity Estimation (~6–8 hrs)                 ✅
     │
-    ├── Traffic Estimation (~2 hrs)
-    │   ├── Requests / Day (~20 min)           ✅
-    │   ├── Average RPS (~20 min)              ✅
-    │   ├── Peak RPS (~20 min)                 ✅
-    │   ├── Read vs Write Traffic (~20 min)    ✅
-    │   └── Traffic Estimation Practice (~40 min) ✅
+    ├── Traffic Estimation (~2 hrs)                ✅
+    │   ├── Requests / Day (~20 min)               ✅
+    │   ├── Average RPS (~20 min)                  ✅
+    │   ├── Peak RPS (~20 min)                     ✅
+    │   ├── Read vs Write Traffic (~20 min)        ✅
+    │   └── Traffic Estimation Practice (~40 min)  ✅
     │
-    ├── Storage Estimation (~2 hrs)
-    │   ├── Basic Storage Calculation (~20 min)   ✅
-    │   ├── Estimating Record Size (~30 min)      ✅
-    │   ├── Storage Growth Over Time (~25 min)    ⬅️ NEXT
-    │   ├── Index Overhead (~20 min)
-    │   ├── Replication Overhead (~15 min)
-    │   └── Backup / Retention (~15 min)
+    ├── Storage Estimation (~2 hrs)                ✅
+    │   ├── Basic Storage Calculation (~20 min)    ✅
+    │   ├── Estimating Record Size (~30 min)       ✅
+    │   ├── Storage Growth Over Time (~25 min)     ✅
+    │   ├── Index Overhead (~20 min)               ✅
+    │   ├── Replication Overhead (~15 min)         ✅
+    │   └── Backup / Retention (~15 min)           ✅
     │
-    ├── Bandwidth Estimation (~1–1.5 hrs)
-    │   ├── Request Bandwidth (~20 min)
-    │   ├── Response Bandwidth (~25 min)
-    │   └── Total Bandwidth (~30 min)
+    ├── Bandwidth Estimation (~1–1.5 hrs)          ✅
+    │   ├── Request Bandwidth (~20 min)            ✅
+    │   ├── Response Bandwidth (~25 min)           ✅
+    │   └── Total Bandwidth (~30 min)              ✅
     │
-    └── Memory Estimation (~1–1.5 hrs)
-        ├── Working Set (~25 min)
-        ├── Cache Memory (~25 min)
-        └── Memory Estimation (~30 min)
+    └── Memory Estimation (~1–1.5 hrs)             ✅
+        ├── Working Set (~25 min)                  ✅
+        ├── Cache Memory (~25 min)                 ✅
+        └── Memory Estimation (~30 min)            ✅
 
 
-02 · ARCHITECTURE FUNDAMENTALS (~6–8 hrs)
+02 · ARCHITECTURE FUNDAMENTALS (~6–8 hrs)          ⬅️ NEXT
 │
-├── Client-Server Architecture (~30 min)
-├── Request / Response Flow (~25 min)
-├── DNS (~40 min)
-├── Load Balancer (~1.5 hrs)
-│   ├── L4 vs L7 (~30 min)
-│   ├── Load Balancing Algorithms (~30 min)
-│   └── Health Checks (~20 min)
-├── Reverse Proxy (~30 min)
-├── API Gateway (~40 min)
-├── Horizontal Scaling (~30 min)
-├── Vertical Scaling (~20 min)
-├── Stateless vs Stateful (~40 min)
-├── Monolith (~25 min)
-├── Microservices (~40 min)
-└── Service Discovery (~30 min)
+├── Client-Server Architecture (~30 min)           ⏳
+├── Request / Response Flow (~25 min)              ⏳
+├── DNS (~40 min)                                  ⏳
+├── Load Balancer (~1.5 hrs)                       ⏳
+│   ├── L4 vs L7 (~30 min)                         ⏳
+│   ├── Load Balancing Algorithms (~30 min)        ⏳
+│   └── Health Checks (~20 min)                    ⏳
+├── Reverse Proxy (~30 min)                        ⏳
+├── API Gateway (~40 min)                          ⏳
+├── Horizontal Scaling (~30 min)                   ⏳
+├── Vertical Scaling (~20 min)                     ⏳
+├── Stateless vs Stateful (~40 min)                ⏳
+├── Monolith (~25 min)                             ⏳
+├── Microservices (~40 min)                        ⏳
+└── Service Discovery (~30 min)                    ⏳
 
 
-03 · DATABASES (~10–14 hrs)
+03 · DATABASES (~10–14 hrs)                        ⏳
 │
-├── Database Fundamentals (~45 min)
-├── SQL vs NoSQL (~1 hr)
-├── Data Modeling (~1 hr)
-├── Indexes (~2 hrs)
-│   ├── Why Indexes? (~20 min)
-│   ├── B-Tree Index (~30 min)
-│   ├── Composite Index (~25 min)
-│   ├── Index Selectivity (~20 min)
-│   └── Index Trade-offs (~20 min)
-├── Query Patterns (~45 min)
-├── Database Bottlenecks (~1 hr)
-│   ├── CPU (~10 min)
-│   ├── Memory (~10 min)
-│   ├── Disk I/O (~15 min)
-│   ├── Connections (~10 min)
-│   └── Slow Queries (~15 min)
-├── Replication (~1.5 hrs)
-│   ├── Primary / Replica (~25 min)
-│   ├── Read Replicas (~25 min)
-│   └── Replication Lag (~30 min)
-├── Partitioning (~45 min)
-├── Sharding (~2 hrs)
-│   ├── Shard Key (~25 min)
-│   ├── Hash Sharding (~20 min)
-│   ├── Range Sharding (~20 min)
-│   ├── Hot Partitions (~25 min)
-│   └── Rebalancing (~30 min)
-└── Database Scaling (~1 hr)
-    ├── Read Scaling (~20 min)
-    ├── Write Scaling (~20 min)
-    └── Connection Pooling (~20 min)
+├── Database Fundamentals (~45 min)                ⏳
+├── SQL vs NoSQL (~1 hr)                           ⏳
+├── Data Modeling (~1 hr)                          ⏳
+├── Indexes (~2 hrs)                               ⏳
+│   ├── Why Indexes? (~20 min)                     ⏳
+│   ├── B-Tree Index (~30 min)                     ⏳
+│   ├── Composite Index (~25 min)                  ⏳
+│   ├── Index Selectivity (~20 min)                ⏳
+│   └── Index Trade-offs (~20 min)                 ⏳
+├── Query Patterns (~45 min)                       ⏳
+├── Database Bottlenecks (~1 hr)                   ⏳
+│   ├── CPU (~10 min)                              ⏳
+│   ├── Memory (~10 min)                           ⏳
+│   ├── Disk I/O (~15 min)                         ⏳
+│   ├── Connections (~10 min)                      ⏳
+│   └── Slow Queries (~15 min)                     ⏳
+├── Replication (~1.5 hrs)                         ⏳
+│   ├── Primary / Replica (~25 min)                ⏳
+│   ├── Read Replicas (~25 min)                    ⏳
+│   └── Replication Lag (~30 min)                  ⏳
+├── Partitioning (~45 min)                         ⏳
+├── Sharding (~2 hrs)                              ⏳
+│   ├── Shard Key (~25 min)                        ⏳
+│   ├── Hash Sharding (~20 min)                    ⏳
+│   ├── Range Sharding (~20 min)                   ⏳
+│   ├── Hot Partitions (~25 min)                   ⏳
+│   └── Rebalancing (~30 min)                      ⏳
+└── Database Scaling (~1 hr)                       ⏳
+    ├── Read Scaling (~20 min)                     ⏳
+    ├── Write Scaling (~20 min)                    ⏳
+    └── Connection Pooling (~20 min)               ⏳
 
 
 04 · CACHING (~5–7 hrs)
