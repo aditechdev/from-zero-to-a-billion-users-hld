@@ -1,10 +1,10 @@
 # 📊 Capacity Estimation
 
-![Capacity Estimation](https://img.shields.io/badge/-Capacity%20Estimation-6366f1)
-![Traffic Estimation](https://img.shields.io/badge/-Traffic%20Estimation-6366f1)
-![Storage Estimation](https://img.shields.io/badge/-Storage%20Estimation-6366f1)
-![Bandwidth Estimation](https://img.shields.io/badge/-Bandwidth%20Estimation-6366f1)
-![Memory Estimation](https://img.shields.io/badge/-Memory%20Estimation-6366f1)
+[![Capacity Estimation](https://img.shields.io/badge/-Capacity%20Estimation-6366f1)](#top)
+[![Traffic Estimation](https://img.shields.io/badge/-Traffic%20Estimation-6366f1)](#traffic-estimation)
+[![Storage Estimation](https://img.shields.io/badge/-Storage%20Estimation-6366f1)](#storage-estimation)
+[![Bandwidth Estimation](https://img.shields.io/badge/-Bandwidth%20Estimation-6366f1)](#bandwidth-estimation)
+[![Memory Estimation](https://img.shields.io/badge/-Memory%20Estimation-6366f1)](#memory-estimation)
 
 ---
 
@@ -774,8 +774,8 @@ product analytics, logs and traces, object-storage metrics.
 ---
 
 ## 📚 References
-- Google Cloud Monitoring documentation
-- AWS CloudWatch documentation
-- MongoDB monitoring documentation
-- PostgreSQL monitoring documentation
-- Redis monitoring documentation
+- [Google Cloud Monitoring documentation](https://cloud.google.com/monitoring/docs)
+- [AWS CloudWatch documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
+- [MongoDB monitoring documentation](https://www.mongodb.com/docs/manual/administration/monitoring/)
+- [PostgreSQL monitoring documentation](https://www.postgresql.org/docs/current/monitoring.html)
+- [Redis monitoring documentation](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/)
