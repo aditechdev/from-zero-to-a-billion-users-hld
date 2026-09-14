@@ -168,10 +168,10 @@ The keywords listed below each topic make it easy to search for specific concept
         └── Memory Estimation (~30 min)            ✅
 
 
-02 · ARCHITECTURE FUNDAMENTALS (~6–8 hrs)          ⬅️ NEXT
+02 · ARCHITECTURE FUNDAMENTALS (~6–8 hrs)          
 │
-├── Client-Server Architecture (~30 min)           ⏳
-├── Request / Response Flow (~25 min)              ⏳
+├── Client-Server Architecture (~30 min)           ✅
+├── Request / Response Flow (~25 min)              ⬅️ NEXT
 ├── DNS (~40 min)                                  ⏳
 ├── Load Balancer (~1.5 hrs)                       ⏳
 │   ├── L4 vs L7 (~30 min)                         ⏳
