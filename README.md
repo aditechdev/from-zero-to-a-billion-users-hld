@@ -248,7 +248,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Real-World Example                          ⏳
 │   └── Common Mistakes & Mental Model              ⏳
 │   
-├──HLD Networking Fundamentals (~1 hr)
+├── HLD Networking Fundamentals (~1 hr)
 │   ├── IP Address & Port
 │   ├── TCP vs UDP
 │   ├── TCP Connection — Conceptual
@@ -464,8 +464,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Message Queue                               ⏳
 │   ├── Event Streaming    
 │   ├── Request / Response
-│   ├── Pub/Sub
-│   └── Event Communication
+│   └── Pub/Sub
 │
 └── REST vs gRPC
 ```
@@ -642,7 +641,7 @@ The keywords listed below each topic make it easy to search for specific concept
 └── Real-Time Messaging
 ```
 ```
-10 · RELIABILITY & HIGH AVAILABILITY(~8–12 hrs)
+10 · RELIABILITY & HIGH AVAILABILITY (~8–12 hrs)
 │
 ├── Availability
 ├── Single Point of Failure
@@ -731,7 +730,7 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Multi-Region
 ├── Active-Passive
 ├── Active-Active
-├──Recovery Strategies
+├── Recovery Strategies
 └── Disaster Recovery Trade-offs
 ```
 ```
@@ -816,6 +815,79 @@ The keywords listed below each topic make it easy to search for specific concept
     ├── Payment System (~2–3 hrs)
     ├── Ticket Booking (~2 hrs)
     ├── Ride Matching (~2–3 hrs)
-    └──Distributed Job Scheduler
+    └── Distributed Job Scheduler (~2–3 hrs)
+
+```
+
+```
+Other Roadmap
+
+DSA
+│
+├── Algorithms
+└── Data Structures
+
+
+CS Fundamentals
+│
+├── OS
+├── Networking
+├── DB Internals
+└── Concurrency
+
+
+Backend Engineering
+│
+├── Java
+├── Spring Boot
+├── REST APIs
+├── Authentication
+├── Testing
+├── Docker
+├── Kubernetes
+└── Cloud
+
+
+HLD
+│
+├── Architecture
+├── Databases
+├── Caching
+├── Messaging
+├── Distributed Systems
+├── Reliability
+└── System Design Case Studies
+
+                         🎯 BACKEND / FULL-STACK
+                                │
+        ┌───────────────────────┼────────────────────────┐
+        │                       │                        │
+       DSA                CS FUNDAMENTALS          ENGINEERING
+        │                       │                        │
+   ┌────┴────┐          ┌───────┼────────┐       ┌───────┴───────┐
+   │         │          │       │        │       │               │
+Algorithms  DS         OS   Networking  DB     Backend        DevOps/Cloud
+                                               │               │
+                                               ├── Java         ├── Docker
+                                               ├── Spring Boot  ├── Kubernetes
+                                               ├── REST APIs    └── Cloud
+                                               ├── Auth
+                                               └── Testing
+
+
+                     SOFTWARE DESIGN / SYSTEM DESIGN
+                                │
+                 ┌──────────────┴──────────────┐
+                 │                             │
+                LLD                           HLD
+                 │                             │
+        ┌────────┴────────┐          ┌─────────┴─────────┐
+        │                 │          │                   │
+   OOP / SOLID       Design Patterns Architecture   Distributed Systems
+   Classes            UML            Databases      Scalability
+   Interfaces         LLD Problems   Caching        Reliability
+   Composition        Concurrency    Messaging      System Design
+   Extensibility      etc.           etc.           Case Studies
+
 
 ```
