@@ -166,32 +166,375 @@ The keywords listed below each topic make it easy to search for specific concept
         ├── Working Set (~25 min)                  ✅
         ├── Cache Memory (~25 min)                 ✅
         └── Memory Estimation (~30 min)            ✅
+```
+```
 
-
-02 · ARCHITECTURE FUNDAMENTALS (~6–8 hrs)          
+02 · ARCHITECTURE FUNDAMENTALS (~10–12 hrs)        🟡 IN PROGRESS
 │
-├── Client-Server Architecture (~30 min)           ✅
-├── Request / Response Flow (~25 min)              ⬅️ NEXT
-├── DNS (~40 min)                                  ⏳
-├── Load Balancer (~1.5 hrs)                       ⏳
-│   ├── L4 vs L7 (~30 min)                         ⏳
-│   ├── Load Balancing Algorithms (~30 min)        ⏳
-│   └── Health Checks (~20 min)                    ⏳
-├── Reverse Proxy (~30 min)                        ⏳
-├── API Gateway (~40 min)                          ⏳
-├── Horizontal Scaling (~30 min)                   ⏳
-├── Vertical Scaling (~20 min)                     ⏳
-├── Stateless vs Stateful (~40 min)                ⏳
-├── Monolith (~25 min)                             ⏳
-├── Microservices (~40 min)                        ⏳
-└── Service Discovery (~30 min)                    ⏳
-
-
-03 · DATABASES (~10–14 hrs)                        ⏳
+├── Client-Server Architecture (~45 min)            ✅
+│   ├── What Problem Does Client-Server Solve?      ✅
+│   ├── First Principles                            ✅
+│   ├── What is a Client?                           ✅
+│   ├── What is a Server?                           ✅
+│   ├── Client-Server Relationship                  ✅
+│   ├── Client Responsibilities                     ✅
+│   ├── Server Responsibilities                     ✅
+│   ├── Shared State                                ✅
+│   ├── Source of Truth                             ✅
+│   ├── Trust Boundary                              ✅
+│   ├── Why We Cannot Trust the Client              ✅
+│   ├── Client-Side vs Server-Side Validation       ✅
+│   ├── Client and Server Don't Need Same UI        ✅
+│   ├── Logical Server vs Physical Server           ✅
+│   ├── Multiple Clients → One Backend              ✅
+│   ├── Real-World Examples                         ✅
+│   │   ├── Banking Application                     ✅
+│   │   ├── Coupon Validation                       ✅
+│   │   └── Last Available Product                  ✅
+│   └── Common Mistakes & Mental Model              ✅
 │
+├── Request / Response Flow (~45 min)               🟡
+│   ├── What Problem Does Request / Response Solve? ⏳
+│   ├── Request                                     ✅
+│   ├── Response                                    ✅
+│   ├── Request → Processing → Response             ✅
+│   ├── Client → Backend → Client                   ✅
+│   ├── Backend → Database                          ✅
+│   ├── Client / Server Roles at Each Boundary      ✅
+│   ├── Request / Response Interaction Boundaries   ✅
+│   ├── One External Request → Multiple Operations  ✅
+│   ├── Request ≠ Operation                         ✅
+│   ├── Operation ≠ Response                        ⏳
+│   ├── Anatomy of a Request                        ⬅️ NEXT
+│   │   ├── Destination                             ⏳
+│   │   ├── Intent / Operation                      ⏳
+│   │   ├── Parameters                              ⏳
+│   │   ├── Metadata                                ⏳
+│   │   └── Body                                    ⏳
+│   ├── Anatomy of a Response                       ⏳
+│   │   ├── Result / Data                           ⏳
+│   │   ├── Success / Failure                       ⏳
+│   │   ├── Status Information                      ⏳
+│   │   ├── Metadata                                ⏳
+│   │   └── Body                                    ⏳
+│   ├── HTTP Request / Response                     ⏳
+│   │   ├── HTTP Request                            ⏳
+│   │   ├── HTTP Response                           ⏳
+│   │   ├── URL / Endpoint                          ⏳
+│   │   ├── HTTP Methods                            ⏳
+│   │   ├── Headers                                 ⏳
+│   │   ├── Body                                    ⏳
+│   │   └── Status Codes                            ⏳
+│   ├── Complete Request Lifecycle                  ⏳
+│   ├── Failure Points                              ⏳
+│   ├── Latency                                     ⏳
+│   └── Real-World Request Flows                    ⏳
+│
+├── 3-Tier Architecture (~45 min)                   ⏳
+│   ├── What Problem Does 3-Tier Solve?             ⏳
+│   ├── First Principles                            ⏳
+│   ├── Presentation Tier                           ⏳
+│   ├── Application / Business Tier                 ⏳
+│   ├── Data Tier                                   ⏳
+│   ├── Responsibilities of Each Tier               ⏳
+│   ├── Request Flow Through 3 Tiers                ⏳
+│   ├── Separation of Concerns                      ⏳
+│   ├── Presentation vs Business Logic              ⏳
+│   ├── Business Logic vs Data Access               ⏳
+│   ├── Why Separate the Tiers?                     ⏳
+│   ├── 3-Tier vs Client-Server                     ⏳
+│   ├── 3-Tier vs 3-Layer                           ⏳
+│   ├── Physical Deployment vs Logical Tiers        ⏳
+│   ├── Scaling Individual Tiers                    ⏳
+│   ├── Real-World Example                          ⏳
+│   └── Common Mistakes & Mental Model              ⏳
+│   
+├──HLD Networking Fundamentals (~1 hr)
+│   ├── IP Address & Port
+│   ├── TCP vs UDP
+│   ├── TCP Connection — Conceptual
+│   ├── HTTP over TCP
+│   ├── HTTPS / TLS — Conceptual
+│   ├── Connection Reuse / Keep-Alive
+│   └── Network Latency
+│
+├── DNS (~40 min)                                   ⏳
+│   ├── What Problem Does DNS Solve?                ⏳
+│   ├── Domain Name vs IP Address                   ⏳
+│   ├── DNS Resolution                              ⏳
+│   ├── Recursive Resolver                          ⏳
+│   ├── Root DNS Server                             ⏳
+│   ├── TLD DNS Server                              ⏳
+│   ├── Authoritative DNS Server                    ⏳
+│   ├── DNS Caching                                 ⏳
+│   ├── TTL                                         ⏳
+│   ├── DNS Record Types                            ⏳
+│   │   ├── A                                       ⏳
+│   │   ├── AAAA                                    ⏳
+│   │   ├── CNAME                                   ⏳
+│   │   └── NS                                      ⏳
+│   ├── Recursive vs Iterative Resolution           ⏳
+│   ├── DNS in a Real Request Flow                  ⏳
+│   └── Common Mistakes & Mental Model              ⏳
+│
+├── Load Balancer (~1.5 hrs)                        ⏳
+│   ├── What Problem Does Load Balancing Solve?     ⏳
+│   ├── Why One Server Is Not Enough                ⏳
+│   ├── Multiple Backend Instances                  ⏳
+│   ├── Load Balancer Role                          ⏳
+│   ├── Traffic Distribution                        ⏳
+│   ├── L4 vs L7                                    ⏳
+│   │   ├── Layer 4 Load Balancing                  ⏳
+│   │   ├── Layer 7 Load Balancing                  ⏳
+│   │   └── L4 vs L7 Trade-offs                     ⏳
+│   ├── Load Balancing Algorithms (~30 min)         ⏳
+│   │   ├── Round Robin                             ⏳
+│   │   ├── Weighted Round Robin                    ⏳
+│   │   ├── Least Connections                       ⏳
+│   │   ├── IP Hash                                 ⏳
+│   │   └── Consistent Hashing — Conceptual         ⏳
+│   ├── Health Checks (~20 min)                     ⏳
+│   │   ├── Why Health Checks Are Needed            ⏳
+│   │   ├── Liveness vs Readiness — Conceptual      ⏳
+│   │   └── Removing Unhealthy Instances            ⏳
+│   ├── Load Balancer Placement                     ⏳
+│   ├── Load Balancer Failure                       ⏳
+│   ├── Horizontal Scaling + Load Balancer          ⏳
+│   └── Common Mistakes & Mental Model              ⏳
+│
+├── Reverse Proxy (~30 min)                         ⏳
+│   ├── What Problem Does a Reverse Proxy Solve?    ⏳
+│   ├── Forward Proxy vs Reverse Proxy              ⏳
+│   ├── Client → Reverse Proxy → Backend            ⏳
+│   ├── Backend Protection                          ⏳
+│   ├── TLS Termination — Conceptual                ⏳
+│   ├── Routing                                     ⏳
+│   ├── Caching — Conceptual                        ⏳
+│   ├── Compression — Conceptual                    ⏳
+│   ├── Reverse Proxy vs Load Balancer              ⏳
+│   └── Common Deployment Example                   ⏳
+│
+├── API Gateway (~40 min)                           ⏳
+│   ├── What Problem Does API Gateway Solve?        ⏳
+│   ├── Client → Gateway → Services                 ⏳
+│   ├── Single Entry Point                          ⏳
+│   ├── Routing                                     ⏳
+│   ├── Authentication / Authorization              ⏳
+│   ├── Rate Limiting — Conceptual                  ⏳
+│   ├── Request / Response Transformation           ⏳
+│   ├── Aggregation — Conceptual                    ⏳
+│   ├── API Gateway vs Reverse Proxy                ⏳
+│   ├── API Gateway vs Load Balancer                ⏳
+│   └── Common Mistakes & Trade-offs                ⏳
+│
+├── CDN
+│    ├── What Problem Does CDN Solve?
+│    ├── Edge Servers
+│    ├── Origin Server
+│    ├── Cache Hit / Cache Miss
+│    ├── TTL
+│    ├── Cache Invalidation
+│    ├── Static vs Dynamic Content
+│    ├── CDN + Object Storage
+│    ├── CDN + Backend
+│    └── CDN vs Application Cache                                       ⏳
+│
+├── Horizontal Scaling (~30 min)                    ⏳
+│   ├── What Problem Does Scaling Solve?            ⏳
+│   ├── Vertical vs Horizontal Scaling              ⏳
+│   ├── Scale Out                                   ⏳
+│   ├── Multiple Server Instances                   ⏳
+│   ├── Load Balancer + Horizontal Scaling          ⏳
+│   ├── Stateless Requirement — Introduction        ⏳
+│   ├── Shared State Problem                        ⏳
+│   ├── Scaling Limits                              ⏳
+│   └── Real-World Example                          ⏳
+│
+├── Vertical Scaling (~20 min)                      ⏳
+│   ├── What is Scale Up?                           ⏳
+│   ├── CPU / Memory Scaling                        ⏳
+│   ├── Advantages                                  ⏳
+│   ├── Limitations                                 ⏳
+│   ├── Vertical vs Horizontal Scaling              ⏳
+│   └── When to Use Which?                          ⏳
+│
+├── Stateless vs Stateful (~40 min)                 ⏳
+│   ├── What Problem Does Statelessness Solve?      ⏳
+│   ├── What is State?                              ⏳
+│   ├── Stateful Server                             ⏳
+│   ├── Stateless Server                            ⏳
+│   ├── Why Stateless Helps Scaling                 ⏳
+│   ├── Where Does State Go?                        ⏳
+│   │   ├── Database                                ⏳
+│   │   ├── Cache                                   ⏳
+│   │   └── External State Store                    ⏳
+│   ├── Sticky Sessions — Conceptual                ⏳
+│   ├── Stateless vs Stateful Trade-offs            ⏳
+│   └── Common Mistakes & Mental Model              ⏳
+│
+├── High Availability (~45 min)
+│   ├── What is Availability?
+│   ├── Single Point of Failure
+│   ├── Redundancy
+│   ├── Failover
+│   ├── Active-Passive
+│   ├── Active-Active
+│   ├── Multi-AZ — Conceptual
+│   ├── Multi-Region — Conceptual
+│   └── Availability Trade-offs
+│   
+├── Monolith (~25 min)                              ⏳
+│   ├── What Problem Does a Monolith Solve?         ⏳
+│   ├── Monolithic Architecture                     ⏳
+│   ├── Components Inside a Monolith                ⏳
+│   ├── Deployment Unit                             ⏳
+│   ├── Advantages                                  ⏳
+│   ├── Limitations                                 ⏳
+│   ├── Scaling a Monolith                          ⏳
+│   ├── Modular Monolith — Conceptual               ⏳
+│   └── When Is a Monolith a Good Choice?           ⏳
+│
+├── Microservices (~45 min)                         ⏳
+│   ├── What Problem Do Microservices Solve?        ⏳
+│   ├── From Monolith → Microservices               ⏳
+│   ├── Service Boundaries                          ⏳
+│   ├── Independent Deployment                      ⏳
+│   ├── Independent Scaling                         ⏳
+│   ├── Service-to-Service Communication            ⏳
+│   ├── Database per Service — Conceptual           ⏳
+│   ├── Advantages                                  ⏳
+│   ├── Distributed System Complexity               ⏳
+│   ├── Microservices Trade-offs                    ⏳
+│   ├── Monolith vs Microservices                   ⏳
+│   └── When Should We Use Microservices?           ⏳
+│
+└── Service Discovery (~30 min)                     ⏳
+    ├── What Problem Does Service Discovery Solve?  ⏳
+    ├── Why Service IPs Cannot Be Hardcoded         ⏳
+    ├── Dynamic Service Instances                   ⏳
+    ├── Service Registry                            ⏳
+    ├── Service Registration                        ⏳
+    ├── Service Lookup                              ⏳
+    ├── Client-Side Discovery                       ⏳
+    ├── Server-Side Discovery                       ⏳
+    ├── Health / Availability Awareness             ⏳
+    ├── Service Discovery + Load Balancing          ⏳
+    └── Common Deployment Example                   ⏳
+```
+```
+03 · API & SERVICE COMMUNICATION
+│
+├── API Fundamentals
+│   ├── What is an API?
+│   ├── API Contract
+│   ├── Request / Response Schema
+│   └── API Boundaries
+│
+├── REST
+│   ├── Resources
+│   ├── HTTP Methods
+│   ├── HTTP Status Codes
+│   └── REST Constraints — Conceptual
+│
+├── API Design
+│   ├── Resource Modeling
+│   ├── Pagination
+│   │   ├── Offset Pagination
+│   │   └── Cursor Pagination
+│   ├── Filtering
+│   ├── Sorting
+│   ├── Idempotency — Introduction
+│   ├── Error Handling
+│   ├── API Versioning
+│   └── Backward Compatibility
+│
+├── Serialization
+│   ├── What is Serialization?
+│   ├── JSON
+│   ├── Protobuf (Protocol Buffers)
+│   ├── Binary Formats
+│   ├── Binary vs Text Formats
+│   ├── JSON vs Protobuf
+│   └── Serialization Overhead
+│
+├── Service Communication
+│   ├── Synchronous Communication
+│   ├── Asynchronous Communication
+│   ├── REST                                        ⏳
+│   ├── gRPC                                        ⏳
+│   ├── Message Queue                               ⏳
+│   ├── Event Streaming    
+│   ├── Request / Response
+│   ├── Pub/Sub
+│   └── Event Communication
+│
+└── REST vs gRPC
+```
+```
+04 · DATABASES (~10–14 hrs)                        ⏳
 ├── Database Fundamentals (~45 min)                ⏳
 ├── SQL vs NoSQL (~1 hr)                           ⏳
-├── Data Modeling (~1 hr)                          ⏳
+├── Data Modeling
+│   ├── Schema
+│   ├── Relationships
+│   ├── Normalization
+│   └── Denormalization                         ⏳
+│
+├── Transactions
+│   ├── What is a Transaction?
+│   ├── ACID
+│   │  ├── Atomicity
+│   │  ├── Consistency
+│   │  ├── Isolation
+│   │  └── Durability
+│   ├── Commit / Rollback
+│   ├── Concurrent Transactions
+│   ├── Isolation Levels
+│   │   ├── Read Uncommitted
+│   │   ├── Read Committed
+│   │   ├── Repeatable Read
+│   │   └── Serializable
+│   ├── Race Conditions — Database Context
+│   ├── Optimistic vs Pessimistic Locking — Conceptual
+│   └── Locking — Conceptual
+├── Indexes
+│   ├── Why Indexes?
+│   ├── B-Tree
+│   ├── Composite Index
+│   ├── Selectivity
+│   └── Trade-offs
+│
+├── Query Patterns
+│
+├── Database Bottlenecks
+│   ├── CPU
+│   ├── Memory
+│   ├── Disk I/O
+│   ├── Connections
+│   └── Slow Queries
+│
+├── Replication
+│   ├── Primary / Replica
+│   ├── Read Replicas
+│   └── Replication Lag
+│
+├──Partitioning
+│    ├── Partitioning
+│    ├── Hash Partitioning
+│    └── Range Partitioning
+│
+├── Sharding
+│   ├── Shard Key
+│   ├── Hash Sharding
+│   ├── Range Sharding
+│   ├── Hot Partitions
+│   └── Rebalancing
+│
+└── Database Scaling
+│   ├── Read Scaling
+│   ├── Write Scaling
+│   └── Connection Pooling
+│
 ├── Indexes (~2 hrs)                               ⏳
 │   ├── Why Indexes? (~20 min)                     ⏳
 │   ├── B-Tree Index (~30 min)                     ⏳
@@ -199,30 +542,35 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Index Selectivity (~20 min)                ⏳
 │   └── Index Trade-offs (~20 min)                 ⏳
 ├── Query Patterns (~45 min)                       ⏳
+│
 ├── Database Bottlenecks (~1 hr)                   ⏳
 │   ├── CPU (~10 min)                              ⏳
 │   ├── Memory (~10 min)                           ⏳
 │   ├── Disk I/O (~15 min)                         ⏳
 │   ├── Connections (~10 min)                      ⏳
 │   └── Slow Queries (~15 min)                     ⏳
+│
 ├── Replication (~1.5 hrs)                         ⏳
 │   ├── Primary / Replica (~25 min)                ⏳
 │   ├── Read Replicas (~25 min)                    ⏳
 │   └── Replication Lag (~30 min)                  ⏳
+│
 ├── Partitioning (~45 min)                         ⏳
+│
 ├── Sharding (~2 hrs)                              ⏳
 │   ├── Shard Key (~25 min)                        ⏳
 │   ├── Hash Sharding (~20 min)                    ⏳
 │   ├── Range Sharding (~20 min)                   ⏳
 │   ├── Hot Partitions (~25 min)                   ⏳
 │   └── Rebalancing (~30 min)                      ⏳
+│
 └── Database Scaling (~1 hr)                       ⏳
     ├── Read Scaling (~20 min)                     ⏳
     ├── Write Scaling (~20 min)                    ⏳
     └── Connection Pooling (~20 min)               ⏳
-
-
-04 · CACHING (~5–7 hrs)
+```
+```
+05 · CACHING (~5–7 hrs)
 │
 ├── Why Caching? (~25 min)
 ├── Cache Fundamentals (~30 min)
@@ -240,12 +588,38 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Cache Penetration (~20 min)
 ├── Cache Avalanche (~20 min)
 ├── Hot Keys (~25 min)
-└── Distributed Cache (~40 min)
-
-
-05 · MESSAGING & QUEUES (~8–10 hrs)
+├── Distributed Cache (~40 min)
+└── Cache Consistency
+```
+```
+06 · STORAGE
 │
-├── Synchronous vs Asynchronous (~30 min)
+├── Storage Fundamentals
+│   ├── Object Storage
+│   ├── File Storage
+│   └── Block Storage
+│
+├── Object Storage
+│   ├── Bucket
+│   ├── Object
+│   ├── Metadata
+│   └── Durability — Conceptual
+│
+├── Large File Storage
+│
+├── File Upload Architecture
+│   ├── Backend Upload
+│   ├── Direct Upload
+│   ├── Pre-Signed URLs
+│   └── Multipart Upload
+│
+├── File Download Architecture
+├── Object Storage + CDN
+└── Database vs Object Storage
+```
+```
+07 · MESSAGING & QUEUES (~8–10 hrs)
+│
 ├── Queue Fundamentals (~30 min)
 ├── Producer (~15 min)
 ├── Consumer (~15 min)
@@ -265,10 +639,10 @@ The keywords listed below each topic make it easy to search for specific concept
     ├── At-most-once (~15 min)
     ├── At-least-once (~20 min)
     └── Exactly-once (~25 min)
-
-
-06 · KAFKA (~8–12 hrs)
-│
+```
+```
+08 · KAFKA (~8–12 hrs)
+├──KAFKA (~8–12 hrs)
 ├── Why Kafka? (~30 min)
 ├── Kafka Fundamentals (~1 hr)
 ├── Topics (~25 min)
@@ -283,10 +657,35 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Rebalancing (~45 min)
 ├── Consumer Lag (~30 min)
 └── Delivery Semantics (~45 min)
-
-
-07 · RELIABILITY (~8–12 hrs)
+```
+```
+09 · REAL-TIME SYSTEMS
 │
+├── What is Real-Time Communication?
+├── What Problem Does Real-Time Communication Solve?
+├── Polling
+├── Long Polling
+├── Server-Sent Events
+├── WebSockets
+│   ├── Connection Lifecycle
+│   ├── Persistent Connections
+│   ├── WebSocket Scaling
+│   ├── WebSockets vs HTTP
+│   └── WebSockets vs SSE
+├── Scaling Real-Time Systems — Introduction
+├── Presence
+├── Real-Time Notifications
+└── Real-Time Messaging
+```
+```
+10 · RELIABILITY & HIGH AVAILABILITY(~8–12 hrs)
+│
+├── Availability
+├── Single Point of Failure
+├── Redundancy
+├── Failover
+├── Active-Passive
+├── Active-Active
 ├── Timeouts (~30 min)
 ├── Retries (~30 min)
 ├── Exponential Backoff (~25 min)
@@ -312,9 +711,9 @@ The keywords listed below each topic make it easy to search for specific concept
     ├── Queue Failure (~15 min)
     ├── Network Failure (~25 min)
     └── Region Failure (~25 min)
-
-
-08 · DISTRIBUTED SYSTEMS (~15–20 hrs)
+```
+```
+11 · DISTRIBUTED SYSTEMS (~15–20 hrs)
 │
 ├── Why Distributed Systems? (~40 min)
 ├── Network Failures (~45 min)
@@ -323,6 +722,10 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Network Partitions (~45 min)
 ├── Replication (~1 hr)
 ├── Partitioning (~1 hr)
+├── Consistent Hashing
+│   ├── Hash Ring
+│   ├── Virtual Nodes
+│   └── Rebalancing
 ├── Consistency (~2 hrs)
 │   ├── Strong Consistency (~30 min)
 │   ├── Eventual Consistency (~40 min)
@@ -339,20 +742,38 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Raft (~1.5 hrs)
 │   └── Paxos (~1.5 hrs)
 └── Distributed Transactions (~1 hr)
-
-
-09 · ADVANCED ARCHITECTURE PATTERNS (~8–12 hrs)
+```
+```
+12 · SEARCH SYSTEMS
 │
-├── Event-Driven Architecture (~1.5 hrs)
-├── CQRS (~1 hr)
-├── Event Sourcing (~1.5 hrs)
-├── Saga Pattern (~1.5 hrs)
-├── Outbox Pattern (~1 hr)
-├── Transactional Messaging (~1 hr)
-└── When NOT to Use These Patterns (~1 hr)
-
-
-10 · SECURITY IN HLD (~4–6 hrs)
+├── Database Search vs Search Engine
+├── Full-Text Search
+├── Inverted Index
+├── Search Index
+├── Indexing Pipeline
+├── Query Flow
+├── Search Ranking — Conceptual
+├── Elasticsearch / OpenSearch — Conceptual
+└── Search Scaling
+```
+```
+13 · DISASTER RECOVERY
+│
+├── What Problem Does DR Solve?
+├── Backup vs Replication
+├── Recovery
+├── Failover
+├── RPO
+├── RTO
+├── Multi-AZ
+├── Multi-Region
+├── Active-Passive
+├── Active-Active
+├──Recovery Strategies
+└── Disaster Recovery Trade-offs
+```
+```
+14 · SECURITY IN HLD (~4–6 hrs)
 │
 ├── Authentication (~30 min)
 ├── Authorization (~30 min)
@@ -366,10 +787,11 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Secrets Management (~25 min)
 ├── Rate Limiting (~25 min)
 ├── Abuse Prevention (~30 min)
-└── Data Protection (~30 min)
-
-
-11 · OBSERVABILITY (~4–6 hrs)
+├── Data Protection (~30 min)
+└── Principle of Least Privilege
+```
+```
+15 · OBSERVABILITY (~4–6 hrs)
 │
 ├── Logs (~30 min)
 ├── Metrics (~30 min)
@@ -380,9 +802,35 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── Error Rate (~20 min)
 ├── Throughput (~20 min)
 └── Debugging Distributed Systems (~1 hr)
-
-
-12 · SYSTEM DESIGN CASE STUDIES (~25–40+ hrs)
+```
+```
+16 · ADVANCED ARCHITECTURE PATTERNS (~8–12 hrs)
+│
+├── Event-Driven Architecture (~1.5 hrs)
+├── CQRS (~1 hr)
+├── Event Sourcing (~1.5 hrs)
+├── Saga Pattern (~1.5 hrs)
+├── Outbox Pattern (~1 hr)
+├── Transactional Messaging (~1 hr)
+└── When NOT to Use These Patterns (~1 hr)
+```
+```
+17 · ARCHITECTURE TRADE-OFFS
+│
+├── Performance vs Cost
+├── Latency vs Throughput
+├── Consistency vs Availability
+├── Simplicity vs Scalability
+├── SQL vs NoSQL
+├── Cache vs Database
+├── Synchronous vs Asynchronous
+├── Monolith vs Microservices
+├── Strong vs Eventual Consistency
+├── Build vs Buy
+└── Reliability vs Complexity
+```
+```
+18 · SYSTEM DESIGN CASE STUDIES (~25–40+ hrs)
 │
 ├── Beginner (~5–7 hrs)
 │   ├── URL Shortener (~2 hrs)
@@ -405,6 +853,7 @@ The keywords listed below each topic make it easy to search for specific concept
 └── High-Scale / Interview (~6–10+ hrs)
     ├── Payment System (~2–3 hrs)
     ├── Ticket Booking (~2 hrs)
-    └── Ride Matching (~2–3 hrs)
+    ├── Ride Matching (~2–3 hrs)
+    └──Distributed Job Scheduler
 
 ```
