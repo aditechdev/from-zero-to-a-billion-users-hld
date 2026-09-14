@@ -168,7 +168,6 @@ The keywords listed below each topic make it easy to search for specific concept
         └── Memory Estimation (~30 min)            ✅
 ```
 ```
-
 02 · ARCHITECTURE FUNDAMENTALS (~10–12 hrs)        🟡 IN PROGRESS
 │
 ├── Client-Server Architecture (~45 min)            ✅
@@ -497,43 +496,6 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Race Conditions — Database Context
 │   ├── Optimistic vs Pessimistic Locking — Conceptual
 │   └── Locking — Conceptual
-├── Indexes
-│   ├── Why Indexes?
-│   ├── B-Tree
-│   ├── Composite Index
-│   ├── Selectivity
-│   └── Trade-offs
-│
-├── Query Patterns
-│
-├── Database Bottlenecks
-│   ├── CPU
-│   ├── Memory
-│   ├── Disk I/O
-│   ├── Connections
-│   └── Slow Queries
-│
-├── Replication
-│   ├── Primary / Replica
-│   ├── Read Replicas
-│   └── Replication Lag
-│
-├──Partitioning
-│    ├── Partitioning
-│    ├── Hash Partitioning
-│    └── Range Partitioning
-│
-├── Sharding
-│   ├── Shard Key
-│   ├── Hash Sharding
-│   ├── Range Sharding
-│   ├── Hot Partitions
-│   └── Rebalancing
-│
-└── Database Scaling
-│   ├── Read Scaling
-│   ├── Write Scaling
-│   └── Connection Pooling
 │
 ├── Indexes (~2 hrs)                               ⏳
 │   ├── Why Indexes? (~20 min)                     ⏳
@@ -556,6 +518,9 @@ The keywords listed below each topic make it easy to search for specific concept
 │   └── Replication Lag (~30 min)                  ⏳
 │
 ├── Partitioning (~45 min)                         ⏳
+│    ├── Partitioning
+│    ├── Hash Partitioning
+│    └── Range Partitioning
 │
 ├── Sharding (~2 hrs)                              ⏳
 │   ├── Shard Key (~25 min)                        ⏳
@@ -642,7 +607,6 @@ The keywords listed below each topic make it easy to search for specific concept
 ```
 ```
 08 · KAFKA (~8–12 hrs)
-├──KAFKA (~8–12 hrs)
 ├── Why Kafka? (~30 min)
 ├── Kafka Fundamentals (~1 hr)
 ├── Topics (~25 min)
@@ -702,8 +666,6 @@ The keywords listed below each topic make it easy to search for specific concept
 ├── SLI (~25 min)
 ├── SLO (~30 min)
 ├── Error Budget (~30 min)
-├── RPO (~20 min)
-├── RTO (~20 min)
 └── Failure Scenarios (~2 hrs)
     ├── Server Failure (~20 min)
     ├── Database Failure (~20 min)
