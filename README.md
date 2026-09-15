@@ -204,18 +204,18 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── One External Request → Multiple Operations  ✅
 │   ├── Request ≠ Operation                         ✅
 │   ├── Operation ≠ Response                        ✅
-│   ├── Anatomy of a Request                        ⬅️ NEXT
-│   │   ├── Destination                             ⏳
-│   │   ├── Intent / Operation                      ⏳
-│   │   ├── Parameters                              ⏳
-│   │   ├── Metadata                                ⏳
-│   │   └── Body                                    ⬅️ NEXT
-│   ├── Anatomy of a Response                       ⏳
-│   │   ├── Result / Data                           ⏳
-│   │   ├── Success / Failure                       ⏳
-│   │   ├── Status Information                      ⏳
-│   │   ├── Metadata                                ⏳
-│   │   └── Body                                    ⏳
+│   ├── Anatomy of a Request                        ✅
+│   │   ├── Destination                             ✅
+│   │   ├── Intent / Operation                      ✅
+│   │   ├── Parameters                              ✅
+│   │   ├── Metadata                                ✅
+│   │   └── Body                                    ✅
+│   ├── Anatomy of a Response                       ✅
+│   │   ├── Result / Data                           ✅
+│   │   ├── Success / Failure                       ✅
+│   │   ├── Status Information                      ✅
+│   │   ├── Metadata                                ✅
+│   │   └── Body                                    ✅
 │   ├── HTTP Request / Response                     ⏳
 │   │   ├── HTTP Request                            ⏳
 │   │   ├── HTTP Response                           ⏳
@@ -223,7 +223,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   │   ├── HTTP Methods                            ⏳
 │   │   ├── Headers                                 ⏳
 │   │   ├── Body                                    ⏳
-│   │   └── Status Codes                            ⏳
+│   │   └── Status Codes                            ⬅️ NEXT
 │   ├── Complete Request Lifecycle                  ⏳
 │   ├── Failure Points                              ⏳
 │   ├── Latency                                     ⏳
