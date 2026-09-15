@@ -203,13 +203,13 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Request / Response Interaction Boundaries   ✅
 │   ├── One External Request → Multiple Operations  ✅
 │   ├── Request ≠ Operation                         ✅
-│   ├── Operation ≠ Response                        ⏳
+│   ├── Operation ≠ Response                        ✅
 │   ├── Anatomy of a Request                        ⬅️ NEXT
 │   │   ├── Destination                             ⏳
 │   │   ├── Intent / Operation                      ⏳
 │   │   ├── Parameters                              ⏳
 │   │   ├── Metadata                                ⏳
-│   │   └── Body                                    ⏳
+│   │   └── Body                                    ⬅️ NEXT
 │   ├── Anatomy of a Response                       ⏳
 │   │   ├── Result / Data                           ⏳
 │   │   ├── Success / Failure                       ⏳
