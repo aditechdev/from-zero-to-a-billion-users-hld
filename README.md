@@ -192,7 +192,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   │   └── Last Available Product                  ✅
 │   └── Common Mistakes & Mental Model              ✅
 │
-├── Request / Response Flow (~60–75 min)            🟡
+├── Request / Response Flow (~60–75 min)            ✅
 │   ├── What Problem Does Request / Response Solve? ✅
 │   ├── Request                                     ✅
 │   ├── Response                                    ✅
