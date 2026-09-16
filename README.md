@@ -142,12 +142,12 @@ The keywords listed below each topic make it easy to search for specific concept
 │
 └── Capacity Estimation (~6–8 hrs)                 ✅
     │
-    ├── Traffic Estimation (~2 hrs)                ✅
+    ├── Traffic Estimation (~2 hrs)                 ✅
     │   ├── Requests / Day (~20 min)               ✅
     │   ├── Average RPS (~20 min)                  ✅
     │   ├── Peak RPS (~20 min)                     ✅
-    │   ├── Read vs Write Traffic (~20 min)        ✅
-    │   └── Traffic Estimation Practice (~40 min)  ✅
+    │   ├── Read vs Write Traffic (~20 min)         ✅
+    │   └── Traffic Estimation Practice (~40 min)   ✅
     │
     ├── Storage Estimation (~2 hrs)                ✅
     │   ├── Basic Storage Calculation (~20 min)    ✅
@@ -168,7 +168,7 @@ The keywords listed below each topic make it easy to search for specific concept
         └── Memory Estimation (~30 min)            ✅
 ```
 ```
-02 · ARCHITECTURE FUNDAMENTALS (~10–12 hrs)        🟡 IN PROGRESS
+02 · ARCHITECTURE FUNDAMENTALS (~10–12 hrs)         🟡 IN PROGRESS
 │
 ├── Client-Server Architecture (~45 min)            ✅
 │   ├── What Problem Does Client-Server Solve?      ✅
@@ -192,8 +192,8 @@ The keywords listed below each topic make it easy to search for specific concept
 │   │   └── Last Available Product                  ✅
 │   └── Common Mistakes & Mental Model              ✅
 │
-├── Request / Response Flow (~45 min)               🟡
-│   ├── What Problem Does Request / Response Solve? ⏳
+├── Request / Response Flow (~60–75 min)            🟡
+│   ├── What Problem Does Request / Response Solve? ✅
 │   ├── Request                                     ✅
 │   ├── Response                                    ✅
 │   ├── Request → Processing → Response             ✅
@@ -204,26 +204,54 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── One External Request → Multiple Operations  ✅
 │   ├── Request ≠ Operation                         ✅
 │   ├── Operation ≠ Response                        ✅
+│   │
 │   ├── Anatomy of a Request                        ✅
 │   │   ├── Destination                             ✅
 │   │   ├── Intent / Operation                      ✅
 │   │   ├── Parameters                              ✅
 │   │   ├── Metadata                                ✅
 │   │   └── Body                                    ✅
+│   │
 │   ├── Anatomy of a Response                       ✅
 │   │   ├── Result / Data                           ✅
 │   │   ├── Success / Failure                       ✅
 │   │   ├── Status Information                      ✅
 │   │   ├── Metadata                                ✅
 │   │   └── Body                                    ✅
-│   ├── HTTP Request / Response                     ⏳
-│   │   ├── HTTP Request                            ⏳
-│   │   ├── HTTP Response                           ⏳
-│   │   ├── URL / Endpoint                          ⏳
-│   │   ├── HTTP Methods                            ⏳
-│   │   ├── Headers                                 ⏳
-│   │   ├── Body                                    ⏳
-│   │   └── Status Codes                            ⬅️ NEXT
+│   │
+│   ├── HTTP Request / Response                     ✅
+│   │   ├── HTTP Fundamentals                       ✅
+│   │   ├── HTTP Request                            ✅
+│   │   ├── HTTP Response                           ✅
+│   │   ├── URL / Endpoint                          ✅
+│   │   ├── Host / Path                             ✅
+│   │   ├── Path Parameters                         ✅
+│   │   ├── Query Parameters                        ✅
+│   │   ├── HTTP Methods                            ✅
+│   │   │   ├── GET                                 ✅
+│   │   │   ├── POST                                ✅
+│   │   │   ├── PUT                                 ✅
+│   │   │   ├── PATCH                               ✅
+│   │   │   └── DELETE                              ✅
+│   │   ├── Headers                                 ✅
+│   │   │   ├── Authorization                       ✅
+│   │   │   ├── Content-Type                        ✅
+│   │   │   └── Accept                              ✅
+│   │   ├── Request / Response Body                 ✅
+│   │   ├── HTTP Status Codes                       ✅
+│   │   │   ├── 2xx — Success                       ✅
+│   │   │   ├── 4xx — Client / Request Problem      ✅
+│   │   │   └── 5xx — Server / Gateway Problem      ✅
+│   │   └── HTTP Versions — 1.0 / 1.1 / 2 / 3       ✅
+│   │
+│   ├── Backend Request Processing Pipeline         ⬅️ NEXT
+│   │   ├── Request Reception                       ⏳
+│   │   ├── Validation                              ⏳
+│   │   ├── Authentication                          ⏳
+│   │   ├── Authorization                           ⏳
+│   │   ├── Business Logic                          ⏳
+│   │   └── Database Interaction                    ⏳
+│   │
 │   ├── Complete Request Lifecycle                  ⏳
 │   ├── Failure Points                              ⏳
 │   ├── Latency                                     ⏳
