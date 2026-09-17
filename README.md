@@ -244,31 +244,31 @@ The keywords listed below each topic make it easy to search for specific concept
 │   │   │   └── 5xx — Server / Gateway Problem      ✅
 │   │   └── HTTP Versions — 1.0 / 1.1 / 2 / 3       ✅
 │   │
-│   ├── Backend Request Processing Pipeline         ⬅️ NEXT
-│   │   ├── Request Reception                       ⏳
-│   │   ├── Validation                              ⏳
-│   │   ├── Authentication                          ⏳
-│   │   ├── Authorization                           ⏳
-│   │   ├── Business Logic                          ⏳
-│   │   └── Database Interaction                    ⏳
+│   ├── Backend Request Processing Pipeline         ✅
+│   │   ├── Request Reception                       ✅
+│   │   ├── Validation                              ✅
+│   │   ├── Authentication                          ✅
+│   │   ├── Authorization                           ✅
+│   │   ├── Business Logic                          ✅
+│   │   └── Database Interaction                    ✅
 │   │
-│   ├── Complete Request Lifecycle                  ⏳
-│   ├── Failure Points                              ⏳
-│   ├── Latency                                     ⏳
-│   └── Real-World Request Flows                    ⏳
+│   ├── Complete Request Lifecycle                  ✅
+│   ├── Failure Points                              ✅
+│   ├── Latency                                     ✅
+│   └── Real-World Request Flows                    ✅
 │
-├── 3-Tier Architecture (~45 min)                   ⏳
-│   ├── What Problem Does 3-Tier Solve?             ⏳
-│   ├── First Principles                            ⏳
-│   ├── Presentation Tier                           ⏳
-│   ├── Application / Business Tier                 ⏳
-│   ├── Data Tier                                   ⏳
-│   ├── Responsibilities of Each Tier               ⏳
-│   ├── Request Flow Through 3 Tiers                ⏳
-│   ├── Separation of Concerns                      ⏳
-│   ├── Presentation vs Business Logic              ⏳
-│   ├── Business Logic vs Data Access               ⏳
-│   ├── Why Separate the Tiers?                     ⏳
+├── 3-Tier Architecture (~45 min)                   🟡 IN PROGRESS
+│   ├── What Problem Does 3-Tier Solve?             ✅
+│   ├── First Principles                            ✅
+│   ├── Presentation Tier                           ✅
+│   ├── Application / Business Tier                 ✅
+│   ├── Data Tier                                   ✅
+│   ├── Responsibilities of Each Tier               ✅
+│   ├── Request Flow Through 3 Tiers                ✅
+│   ├── Separation of Concerns                      ✅
+│   ├── Presentation vs Business Logic              ✅
+│   ├── Business Logic vs Data Access               ✅
+│   ├── Why Separate the Tiers?                     ⬅️ NEXT
 │   ├── 3-Tier vs Client-Server                     ⏳
 │   ├── 3-Tier vs 3-Layer                           ⏳
 │   ├── Physical Deployment vs Logical Tiers        ⏳
@@ -355,16 +355,16 @@ The keywords listed below each topic make it easy to search for specific concept
 │   └── Common Mistakes & Trade-offs                ⏳
 │
 ├── CDN
-│    ├── What Problem Does CDN Solve?
-│    ├── Edge Servers
-│    ├── Origin Server
-│    ├── Cache Hit / Cache Miss
-│    ├── TTL
-│    ├── Cache Invalidation
-│    ├── Static vs Dynamic Content
-│    ├── CDN + Object Storage
-│    ├── CDN + Backend
-│    └── CDN vs Application Cache                                       ⏳
+│    ├── What Problem Does CDN Solve?⏳
+│    ├── Edge Servers⏳
+│    ├── Origin Server⏳
+│    ├── Cache Hit / Cache Miss⏳
+│    ├── TTL⏳
+│    ├── Cache Invalidation⏳
+│    ├── Static vs Dynamic Content⏳
+│    ├── CDN + Object Storage⏳
+│    ├── CDN + Backend⏳
+│    └── CDN vs Application Cache   ⏳                ⏳
 │
 ├── Horizontal Scaling (~30 min)                    ⏳
 │   ├── What Problem Does Scaling Solve?            ⏳
