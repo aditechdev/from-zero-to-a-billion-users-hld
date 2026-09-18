@@ -257,27 +257,32 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Latency                                     ✅
 │   └── Real-World Request Flows                    ✅
 │
-├── 3-Tier Architecture (~45 min)                   🟡 IN PROGRESS
-│   ├── What Problem Does 3-Tier Solve?             ✅
+├── 3-Layer Architecture (~60 min)                  🟡 IN PROGRESS
+│   ├── What Problem Does 3-Layer Solve?            ✅
 │   ├── First Principles                            ✅
-│   ├── Presentation Tier                           ✅
-│   ├── Application / Business Tier                 ✅
-│   ├── Data Tier                                   ✅
-│   ├── Responsibilities of Each Tier               ✅
-│   ├── Request Flow Through 3 Tiers                ✅
+│   ├── Presentation Layer                          ✅
+│   ├── Application / Business Layer                ✅
+│   ├── Data Access Layer                           ✅
+│   ├── Responsibilities of Each Layer              ✅
+│   ├── Request Flow Through 3 Layers               ✅
 │   ├── Separation of Concerns                      ✅
 │   ├── Presentation vs Business Logic              ✅
 │   ├── Business Logic vs Data Access               ✅
-│   ├── Why Separate the Tiers?                     ⬅️ NEXT
-│   ├── 3-Tier vs Client-Server                     ⏳
-│   ├── 3-Tier vs 3-Layer                           ⏳
-│   ├── Physical Deployment vs Logical Tiers        ⏳
-│   ├── Scaling Individual Tiers                    ⏳
-│   ├── Real-World Example                          ⏳
-│   └── Common Mistakes & Mental Model              ⏳
+│   ├── Dependency Direction                        ✅
+│   ├── Coupling & Loose Coupling                   ✅
+│   ├── Cohesion                                    ✅
+│   ├── Layer Violations                            ✅
+│   ├── Change Isolation                            ✅
+│   ├── Why Separate the Layers?                    ✅
+│   ├── 3-Layer vs Client-Server                    ✅
+│   ├── 3-Layer vs 3-Tier                           ✅
+│   ├── Physical Deployment vs Logical Layers       ✅
+│   ├── Scaling Individual Tiers                    ✅
+│   ├── Real-World Example                          ✅
+│   └── Common Mistakes & Mental Model              ✅
 │   
-├── HLD Networking Fundamentals (~1 hr)
-│   ├── IP Address & Port
+├── HLD Networking Fundamentals (~1 hr)             🟡 IN PROGRESS
+│   ├── IP Address & Port                           ⬅️ NEXT
 │   ├── TCP vs UDP
 │   ├── TCP Connection — Conceptual
 │   ├── HTTP over TCP
@@ -916,6 +921,8 @@ Algorithms  DS         OS   Networking  DB     Backend        DevOps/Cloud
    Interfaces         LLD Problems   Caching        Reliability
    Composition        Concurrency    Messaging      System Design
    Extensibility      etc.           etc.           Case Studies
+
+
 
 
 ```
