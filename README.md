@@ -281,17 +281,17 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Real-World Example                          ✅
 │   └── Common Mistakes & Mental Model              ✅
 │   
-├── HLD Networking Fundamentals (~1 hr)             🟡 IN PROGRESS
-│   ├── IP Address & Port                           ⬅️ NEXT
-│   ├── TCP vs UDP
-│   ├── TCP Connection — Conceptual
-│   ├── HTTP over TCP
-│   ├── HTTPS / TLS — Conceptual
-│   ├── Connection Reuse / Keep-Alive
-│   └── Network Latency
+├── HLD Networking Fundamentals (~1 hr)             
+│   ├── IP Address & Port                           ✅
+│   ├── TCP vs UDP                                  ✅
+│   ├── TCP Connection — Conceptual                 ✅
+│   ├── HTTP over TCP                               ✅
+│   ├── HTTPS / TLS — Conceptual                    ✅
+│   ├── Connection Reuse / Keep-Alive               ✅
+│   └── Network Latency                             ✅
 │
-├── DNS (~40 min)                                   ⏳
-│   ├── What Problem Does DNS Solve?                ⏳
+├── DNS (~40 min)                                   ⬅️ NEXT
+│   ├── What Problem Does DNS Solve?                🟡 IN PROGRESS
 │   ├── Domain Name vs IP Address                   ⏳
 │   ├── DNS Resolution                              ⏳
 │   ├── Recursive Resolver                          ⏳
