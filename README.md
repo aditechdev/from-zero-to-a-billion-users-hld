@@ -290,31 +290,31 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Connection Reuse / Keep-Alive               ✅
 │   └── Network Latency                             ✅
 │
-├── DNS (~40 min)                                   ⬅️ NEXT
-│   ├── What Problem Does DNS Solve?                🟡 IN PROGRESS
-│   ├── Domain Name vs IP Address                   ⏳
-│   ├── DNS Resolution                              ⏳
-│   ├── Recursive Resolver                          ⏳
-│   ├── Root DNS Server                             ⏳
-│   ├── TLD DNS Server                              ⏳
-│   ├── Authoritative DNS Server                    ⏳
-│   ├── DNS Caching                                 ⏳
-│   ├── TTL                                         ⏳
-│   ├── DNS Record Types                            ⏳
-│   │   ├── A                                       ⏳
-│   │   ├── AAAA                                    ⏳
-│   │   ├── CNAME                                   ⏳
-│   │   └── NS                                      ⏳
-│   ├── Recursive vs Iterative Resolution           ⏳
-│   ├── DNS in a Real Request Flow                  ⏳
-│   └── Common Mistakes & Mental Model              ⏳
+├── DNS (~40 min)                                   ✅
+│   ├── What Problem Does DNS Solve?                ✅
+│   ├── Domain Name vs IP Address                   ✅
+│   ├── DNS Resolution                              ✅
+│   ├── Recursive Resolver                          ✅
+│   ├── Root DNS Server                             ✅
+│   ├── TLD DNS Server                              ✅
+│   ├── Authoritative DNS Server                    ✅
+│   ├── DNS Caching                                 ✅
+│   ├── TTL                                         ✅
+│   ├── DNS Record Types                            ✅
+│   │   ├── A                                       ✅
+│   │   ├── AAAA                                    ✅
+│   │   ├── CNAME                                   ✅
+│   │   └── NS                                      ✅
+│   ├── Recursive vs Iterative Resolution           ✅
+│   ├── DNS in a Real Request Flow                  ✅
+│   └── Common Mistakes & Mental Model              ✅
 │
-├── Load Balancer (~1.5 hrs)                        ⏳
-│   ├── What Problem Does Load Balancing Solve?     ⏳
+├── Load Balancer (~1.5 hrs)                        🟡 IN PROGRESS
+│   ├── What Problem Does Load Balancing Solve?     ⬅️ NEXT
 │   ├── Why One Server Is Not Enough                ⏳
 │   ├── Multiple Backend Instances                  ⏳
 │   ├── Load Balancer Role                          ⏳
-│   ├── Traffic Distribution                        ⏳
+│   ├── Traffic Distribution                         ⏳
 │   ├── L4 vs L7                                    ⏳
 │   │   ├── Layer 4 Load Balancing                  ⏳
 │   │   ├── Layer 7 Load Balancing                  ⏳
@@ -853,6 +853,30 @@ The keywords listed below each topic make it easy to search for specific concept
 ```
 
 ```
+Pending 
+
+Wireshark hands-on             ⏳
+tcpdump hands-on               ⏳
+TCP packet / flag inspection   ⏳
+
+HTTP/2                         ⏳
+├── HTTP/1.1 limitations       ⏳
+├── Binary framing             ⏳
+├── Streams                    ⏳
+├── Frames                     ⏳
+├── Multiplexing               ⏳
+├── HPACK                      ⏳
+└── HTTP/2 vs HTTP/1.1         ⏳
+
+HTTP/3                         ⏳
+├── QUIC                       ⏳
+├── HTTP/3 over QUIC           ⏳
+├── UDP                        ⏳
+├── HTTP/2 vs HTTP/3           ⏳
+└── Connection migration       ⏳
+```
+
+```
 Other Roadmap
 
 DSA
@@ -890,7 +914,9 @@ HLD
 ├── Distributed Systems
 ├── Reliability
 └── System Design Case Studies
+```
 
+```
                          🎯 BACKEND / FULL-STACK
                                 │
         ┌───────────────────────┼────────────────────────┐
