@@ -11,33 +11,11 @@
 
 ---
 
-[📖 Table of Contents](#-table-of-contents) 
-• [🧭 How to Use](#-how-to-use-this-repo)
-• [🗺️ Detailed Roadmap](#️-roadmap) 
-<!-- • [📊 Progress Dashboard](#-progress-dashboard)  -->
-<!-- • [⚡ Quick Concept Index](#-quick-concept-index)  -->
-<!-- • [🎯 Self-Assessment Checklist](#-interview-prep-checklist)  -->
+[📖 Table of Contents](#-table-of-contents) • [🧭 How to Use](#-how-to-use-this-repo) • [🗺️ Detailed Roadmap](#️-roadmap)
 
 </div>
 
 ---
-
-<!-- ## 📊 Progress Dashboard
-
-| Module | Status | Topics Covered | Estimated Time | Completion |
-|---|:---:|:---:|:---:|:---:|
-| **01 · 🧱 Fundamentals** | ✅ Complete | 2 / 2 Notes | ~8–11 hrs | `██████████` 100% |
-| **02 · 🏗️ Architecture Fundamentals** | ✅ Complete | 12 / 12 Notes | ~10–12 hrs | `██████████` 100% |
-| **03 · 🗄️ Databases & Scaling** | ⏳ Scheduled | 0 / 8 Notes | ~10–14 hrs | `░░░░░░░░░░` 0% |
-| **04 · ⚡ Caching Strategies** | ⏳ Scheduled | 0 / 6 Notes | ~5–7 hrs | `░░░░░░░░░░` 0% |
-| **05 · 📨 Messaging & Queues** | ⏳ Scheduled | 0 / 7 Notes | ~8–10 hrs | `░░░░░░░░░░` 0% |
-| **06 · 🔀 Distributed Streaming (Kafka)** | ⏳ Scheduled | 0 / 6 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
-| **07 · 🛡️ Reliability & Resilience** | ⏳ Scheduled | 0 / 8 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
-| **08 · 🌐 Distributed Systems & Consensus** | ⏳ Scheduled | 0 / 10 Notes | ~15–20 hrs | `░░░░░░░░░░` 0% |
-| **09 · 🧩 Advanced Architecture Patterns** | ⏳ Scheduled | 0 / 7 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
-| **10 · 🏢 System Design Case Studies** | ⏳ Scheduled | 0 / 16 Systems | ~25–40 hrs | `░░░░░░░░░░` 0% |
-
---- -->
 
 ## 📖 Table of Contents
 
@@ -98,37 +76,6 @@
 </details>
 
 ---
-
-<!-- ## ⚡ Quick Concept Index
-
-*Instantly jump to specific high-frequency interview topics across the codebase:*
-
-| Concept / Question | Relevant Note | Key Takeaway / Highlight |
-|---|---|---|
-| **L4 vs L7 Load Balancing** | [11-load-balancer.md](02-architecture-fundamentals/11-load-balancer.md) | L4 routes at TCP layer (IP:Port); L7 inspects HTTP headers, cookies, and URLs for smart routing. |
-| **Forward Proxy vs Reverse Proxy** | [12-reverse-proxy.md](02-architecture-fundamentals/12-reverse-proxy.md) | Forward proxy sits in front of clients (privacy/egress filter); Reverse proxy sits in front of backends (ingress/security/caching). |
-| **DNS Resolution Lifecycle** | [10-dns.md](02-architecture-fundamentals/10-dns.md) | Browser Cache → OS Cache → Recursive Resolver → Root DNS → TLD DNS → Authoritative DNS Server. |
-| **TCP 3-Way Handshake** | [09-networking-fundamentals.md](02-architecture-fundamentals/09-networking-fundamentals.md) | Connection establishment: SYN → SYN-ACK → ACK before HTTP data frame transmission. |
-| **3-Layer Architecture Rules** | [08-3-layer-architecture.md](02-architecture-fundamentals/08-3-layer-architecture.md) | Presentation Layer → Application/Business Layer → Data Access Layer. Dependencies strictly flow downwards. |
-| **Client Trust Boundary** | [01-client-server-architecture.md](02-architecture-fundamentals/01-client-server-architecture.md) | Clients are untrusted presentation containers. The backend server owns authoritative state & enforces business rules. |
-| **Capacity Estimation Formulas** | [02-capacity-estimation.md](01-fundamentals/02-capacity-estimation.md) | Daily Requests ÷ 86,400 = Avg RPS; Peak RPS = Avg RPS × 2–5; Storage = Records × Record Size + Overhead. |
-
---- -->
-
-<!-- ## 🎯 Self-Assessment Checklist
-
-*Use this checklist to track mastery before technical interviews:*
-
-- [x] **HLD Fundamentals:** Can articulate Functional vs Non-Functional requirements and the requirement-driven design flow.
-- [x] **Capacity Estimation:** Can compute RPS, peak traffic, storage growth over 5 years, bandwidth (Mbps/Gbps), and cache RAM.
-- [x] **Client-Server Architecture:** Understands why clients cannot be trusted for security, state mutation, or business validation.
-- [x] **Request/Response Lifecycle:** Can trace an HTTP request end-to-end through DNS, TCP, TLS, Load Balancer, Reverse Proxy, Pipeline, and DB.
-- [x] **3-Layer Architecture:** Can define Presentation, Business, and Data Access layers with change isolation and loose coupling.
-- [x] **Networking:** Understands TCP vs UDP trade-offs, HTTP/1.1 vs HTTP/2 vs HTTP/3, keep-alive connections, and latency origins.
-- [x] **DNS:** Understands A, AAAA, CNAME, NS records, TTL caching, recursive resolution, and failover DNS routing.
-- [x] **Load Balancing & Proxies:** Can select L4 vs L7 balancing, explain Round Robin / Least Connections, TLS Termination, and NGINX setup.
-
---- -->
 
 ## 🧭 How to Use This Repo
 
