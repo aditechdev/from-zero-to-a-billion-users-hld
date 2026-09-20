@@ -1,6 +1,10 @@
-# **Real-World Request Flows**
+# Real-World Request Flows
 
-🏷️ Tags
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Request Flows](https://img.shields.io/badge/Topic-Real--World%20Flows-orange)
+![Caching](https://img.shields.io/badge/Concept-Caching-green)
+![Database](https://img.shields.io/badge/Concept-Database-purple)
+![Async Processing](https://img.shields.io/badge/Concept-Async%20Processing-red)
 
 ---
 

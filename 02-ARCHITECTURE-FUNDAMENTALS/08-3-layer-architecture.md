@@ -1,6 +1,14 @@
-# **3-Layer Architecture**
+# 3-Layer Architecture
 
-## **❓ Problem**
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![3-Layer Architecture](https://img.shields.io/badge/Topic-3--Layer%20Architecture-orange)
+![Presentation Layer](https://img.shields.io/badge/Layer-Presentation-green)
+![Business Layer](https://img.shields.io/badge/Layer-Business-purple)
+![Data Access Layer](https://img.shields.io/badge/Layer-Data%20Access-red)
+
+---
+
+## ❓ Problem
 
 Imagine building a food-ordering backend where a single Controller does everything:
 

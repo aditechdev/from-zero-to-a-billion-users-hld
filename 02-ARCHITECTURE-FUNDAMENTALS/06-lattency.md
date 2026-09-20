@@ -1,6 +1,10 @@
-# **Latency**
+# Latency
 
-🏷️ Tags
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Latency](https://img.shields.io/badge/Topic-Latency-orange)
+![Performance](https://img.shields.io/badge/Concept-Performance-green)
+![Network Latency](https://img.shields.io/badge/Concept-Network%20Latency-purple)
+![Processing Time](https://img.shields.io/badge/Concept-Processing%20Time-red)
 
 ---
 

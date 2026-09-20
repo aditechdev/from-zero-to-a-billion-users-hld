@@ -1,6 +1,14 @@
-# **DNS — Domain Name System**
+# DNS — Domain Name System
 
-## **❓ Problem**
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![DNS](https://img.shields.io/badge/Topic-DNS-orange)
+![Resolution](https://img.shields.io/badge/Concept-Domain%20Resolution-green)
+![DNS Records](https://img.shields.io/badge/Concept-DNS%20Records-purple)
+![TTL](https://img.shields.io/badge/Concept-TTL-red)
+
+---
+
+## ❓ Problem
 
 Computers communicate using network addresses such as:
 

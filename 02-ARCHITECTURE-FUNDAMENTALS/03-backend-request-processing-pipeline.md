@@ -1,18 +1,11 @@
-# **Backend Request Processing Pipeline**
+# Backend Request Processing Pipeline
 
-🏷️
-
-🏷️
-
-🏷️
-
-🏷️
-
-🏷️
-
-🏷️
-
-🏷️
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Pipeline](https://img.shields.io/badge/Pipeline-Request%20Processing-orange)
+![Validation](https://img.shields.io/badge/Step-Validation-green)
+![Authentication](https://img.shields.io/badge/Step-Authentication-purple)
+![Authorization](https://img.shields.io/badge/Step-Authorization-red)
+![Business Logic](https://img.shields.io/badge/Step-Business%20Logic-yellow)
 
 ---
 

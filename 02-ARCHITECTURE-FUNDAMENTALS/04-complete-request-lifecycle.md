@@ -1,6 +1,11 @@
-# **Complete Request Lifecycle**
+# Complete Request Lifecycle
 
-🏷️ Tags
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Topic](https://img.shields.io/badge/Topic-Request%20Lifecycle-orange)
+![End-to-End](https://img.shields.io/badge/Concept-End--to--End-green)
+![DNS](https://img.shields.io/badge/Component-DNS-purple)
+![Load Balancer](https://img.shields.io/badge/Component-Load%20Balancer-red)
+![Database](https://img.shields.io/badge/Component-Database-yellow)
 
 ---
 

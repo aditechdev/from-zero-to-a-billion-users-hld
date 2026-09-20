@@ -1,7 +1,14 @@
-# **HLD Networking Fundamentals**
+# HLD Networking Fundamentals
 
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Networking](https://img.shields.io/badge/Topic-Networking%20Fundamentals-orange)
+![TCP/IP](https://img.shields.io/badge/Protocol-TCP%2FIP-green)
+![HTTP/TLS](https://img.shields.io/badge/Protocol-HTTP%2FTLS-purple)
+![Latency](https://img.shields.io/badge/Concept-Latency-red)
 
-## **❓ Problem**
+---
+
+## ❓ Problem
 
 Before designing a distributed backend, we need to understand what actually happens when one service communicates with another.
 

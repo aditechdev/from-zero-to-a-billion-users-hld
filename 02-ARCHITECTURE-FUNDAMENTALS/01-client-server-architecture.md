@@ -48,7 +48,16 @@ That is the fundamental problem Client-Server Architecture solves.
 
 ---
 
-### 🧠 First Principles
+## 📋 Prerequisites
+
+Before this topic, make sure you understand:
+- HLD Fundamentals (What is HLD, Functional vs Non-Functional requirements)
+
+---
+
+## 🧠 Theory
+
+### First Principles
 
 The fundamental chain is:
 ```
@@ -232,7 +241,19 @@ Client-side checks are useful for user experience, but server-side checks are au
 
 ---
 
-#### 💰 Example: Banking Application
+## 🗺️ Diagram
+
+```
+User A (Mobile) ──┐
+User B (Mobile) ──┼──► [ Client-Side UI ] ──► (HTTP Request) ──► [ Backend Server ] ──► [ Database ]
+User C (Web)    ──┘                                               (Trusted Authority)    (Source of Truth)
+```
+
+---
+
+## 🏗️ Real Example
+
+### 💰 Example: Banking Application
 
 Suppose the application displays:
 ```
@@ -552,6 +573,8 @@ The backend provides data/services; different clients can present them different
 
 ---
 
+## ⚠️ Mistakes / Gotchas
+
 Mistake 6: “Client-server exists mainly because mobile devices don’t have enough storage.”
 
 ❌ Storage is only one possible concern.
@@ -568,7 +591,7 @@ Trusted authority
 ```
 ---
 
-🎯 Interview Questions
+## 🎯 Interview Questions
 
 Beginner
 
@@ -672,14 +695,13 @@ Backend → Database
 11. Concurrency occurs when multiple operations interact with shared state around the same time.
 ---
 
-## 📚 What's Next?
+## 📚 References
+- System Design Interview – An Insider's Guide by Alex Xu
+- Designing Data-Intensive Applications by Martin Kleppmann
 
-```text
+---
 
-02 · ARCHITECTURE FUNDAMENTALS
+## 🚧 Pending Topic
+- Request / Response Flow
+- Backend Request Processing Pipeline
 
-├── Client-Server Architecture       ✅
-
-└── Request / Response Flow          ← NEXT
-
-```

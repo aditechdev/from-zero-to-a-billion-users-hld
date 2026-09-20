@@ -55,7 +55,7 @@ Client
 > HTTP is one well-established answer to that problem.
 >
 
-## 🔑 2. Prerequisites
+## 📋 Prerequisites
 
 Before this topic, make sure you understand:
 
@@ -1890,4 +1890,11 @@ HTTP/3   → QUIC + UDP
 - 📄 [RFC 9112 — HTTP/1.1](https://httpwg.org/specs/rfc9112.html)
 - 📄 [RFC 9113 — HTTP/2](https://httpwg.org/specs/rfc9113.html)
 - 📄 [RFC 9114 — HTTP/3](https://httpwg.org/specs/rfc9114.html)
+
+---
+
+## 🚧 Pending Topic
+- Backend Request Processing Pipeline
+- Complete Request Lifecycle
+
 

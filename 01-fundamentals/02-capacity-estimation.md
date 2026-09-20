@@ -779,3 +779,9 @@ product analytics, logs and traces, object-storage metrics.
 - [MongoDB monitoring documentation](https://www.mongodb.com/docs/manual/administration/monitoring/)
 - [PostgreSQL monitoring documentation](https://www.postgresql.org/docs/current/monitoring.html)
 - [Redis monitoring documentation](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/)
+
+---
+
+## 🚧 Pending Topic
+- Architecture Fundamentals (Client-Server, Request/Response Flow, 3-Layer Architecture)
+

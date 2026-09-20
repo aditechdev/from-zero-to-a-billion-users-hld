@@ -1,6 +1,10 @@
-# **Failure Points**
+# Failure Points
 
-🏷️ Tags
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Fundamentals-blue)
+![Failure Points](https://img.shields.io/badge/Topic-Failure%20Points-red)
+![Reliability](https://img.shields.io/badge/Concept-Reliability-green)
+![Fault Tolerance](https://img.shields.io/badge/Concept-Fault%20Tolerance-purple)
+![Cascading Failure](https://img.shields.io/badge/Concept-Cascading%20Failure-orange)
 
 ---
 
