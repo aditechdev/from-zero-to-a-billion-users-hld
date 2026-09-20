@@ -257,7 +257,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Latency                                     ✅
 │   └── Real-World Request Flows                    ✅
 │
-├── 3-Layer Architecture (~60 min)                  🟡 IN PROGRESS
+├── 3-Layer Architecture (~60 min)                  ✅
 │   ├── What Problem Does 3-Layer Solve?            ✅
 │   ├── First Principles                            ✅
 │   ├── Presentation Layer                          ✅
@@ -309,33 +309,33 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── DNS in a Real Request Flow                  ✅
 │   └── Common Mistakes & Mental Model              ✅
 │
-├── Load Balancer (~1.5 hrs)                        🟡 IN PROGRESS
-│   ├── What Problem Does Load Balancing Solve?     ⬅️ NEXT
-│   ├── Why One Server Is Not Enough                ⏳
-│   ├── Multiple Backend Instances                  ⏳
-│   ├── Load Balancer Role                          ⏳
-│   ├── Traffic Distribution                         ⏳
-│   ├── L4 vs L7                                    ⏳
-│   │   ├── Layer 4 Load Balancing                  ⏳
-│   │   ├── Layer 7 Load Balancing                  ⏳
-│   │   └── L4 vs L7 Trade-offs                     ⏳
-│   ├── Load Balancing Algorithms (~30 min)         ⏳
-│   │   ├── Round Robin                             ⏳
-│   │   ├── Weighted Round Robin                    ⏳
-│   │   ├── Least Connections                       ⏳
-│   │   ├── IP Hash                                 ⏳
-│   │   └── Consistent Hashing — Conceptual         ⏳
-│   ├── Health Checks (~20 min)                     ⏳
-│   │   ├── Why Health Checks Are Needed            ⏳
-│   │   ├── Liveness vs Readiness — Conceptual      ⏳
-│   │   └── Removing Unhealthy Instances            ⏳
-│   ├── Load Balancer Placement                     ⏳
-│   ├── Load Balancer Failure                       ⏳
-│   ├── Horizontal Scaling + Load Balancer          ⏳
-│   └── Common Mistakes & Mental Model              ⏳
+├── Load Balancer (~1.5 hrs)                        ✅
+│   ├── What Problem Does Load Balancing Solve?     ✅
+│   ├── Why One Server Is Not Enough                ✅
+│   ├── Multiple Backend Instances                  ✅
+│   ├── Load Balancer Role                          ✅
+│   ├── Traffic Distribution                         ✅
+│   ├── L4 vs L7                                    ✅
+│   │   ├── Layer 4 Load Balancing                  ✅
+│   │   ├── Layer 7 Load Balancing                  ✅
+│   │   └── L4 vs L7 Trade-offs                     ✅
+│   ├── Load Balancing Algorithms (~30 min)         ✅
+│   │   ├── Round Robin                             ✅
+│   │   ├── Weighted Round Robin                    ✅
+│   │   ├── Least Connections                       ✅
+│   │   ├── IP Hash                                 ✅
+│   │   └── Consistent Hashing — Conceptual         ✅
+│   ├── Health Checks (~20 min)                     ✅
+│   │   ├── Why Health Checks Are Needed            ✅
+│   │   ├── Liveness vs Readiness — Conceptual      ✅
+│   │   └── Removing Unhealthy Instances            ✅
+│   ├── Load Balancer Placement                     ✅
+│   ├── Load Balancer Failure                       ✅
+│   ├── Horizontal Scaling + Load Balancer          ✅
+│   └── Common Mistakes & Mental Model              ✅
 │
-├── Reverse Proxy (~30 min)                         ⏳
-│   ├── What Problem Does a Reverse Proxy Solve?    ⏳
+├── Reverse Proxy (~30 min)                         🟡 IN PROGRESS
+│   ├── What Problem Does a Reverse Proxy Solve?    ⬅️ NEXT
 │   ├── Forward Proxy vs Reverse Proxy              ⏳
 │   ├── Client → Reverse Proxy → Backend            ⏳
 │   ├── Backend Protection                          ⏳
