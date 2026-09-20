@@ -1,161 +1,163 @@
-# 🚀 From Zero to a Billion Users — HLD Prep
+<div align="center">
 
-System design case studies and fundamentals, worked through from scratch —
-how a system scales from a handful of users to a billion.
+# 🚀 From Zero to a Billion Users — High-Level Design (HLD)
+
+### *Production-Grade System Design, Distributed Systems, & Architecture Fundamentals*
+
+[![Target Role](https://img.shields.io/badge/Target-Backend%20%2F%20Fullstack-6366f1?style=for-the-badge&logo=target)](https://github.com)
+[![Status](https://img.shields.io/badge/Status-Active%20Prep%20%E2%9A%A1-success?style=for-the-badge)](https://github.com)
+[![Completed Notes](https://img.shields.io/badge/Completed--Notes-14%20Topics-blue?style=for-the-badge)](https://github.com)
+[![Format](https://img.shields.io/badge/Format-Interview--Ready%20%26%20Production--Grade-purple?style=for-the-badge)](https://github.com)
 
 ---
+
+[📖 Table of Contents](#-table-of-contents) 
+• [🧭 How to Use](#-how-to-use-this-repo)
+• [🗺️ Detailed Roadmap](#️-roadmap) 
+<!-- • [📊 Progress Dashboard](#-progress-dashboard)  -->
+<!-- • [⚡ Quick Concept Index](#-quick-concept-index)  -->
+<!-- • [🎯 Self-Assessment Checklist](#-interview-prep-checklist)  -->
+
+</div>
+
+---
+
+<!-- ## 📊 Progress Dashboard
+
+| Module | Status | Topics Covered | Estimated Time | Completion |
+|---|:---:|:---:|:---:|:---:|
+| **01 · 🧱 Fundamentals** | ✅ Complete | 2 / 2 Notes | ~8–11 hrs | `██████████` 100% |
+| **02 · 🏗️ Architecture Fundamentals** | ✅ Complete | 12 / 12 Notes | ~10–12 hrs | `██████████` 100% |
+| **03 · 🗄️ Databases & Scaling** | ⏳ Scheduled | 0 / 8 Notes | ~10–14 hrs | `░░░░░░░░░░` 0% |
+| **04 · ⚡ Caching Strategies** | ⏳ Scheduled | 0 / 6 Notes | ~5–7 hrs | `░░░░░░░░░░` 0% |
+| **05 · 📨 Messaging & Queues** | ⏳ Scheduled | 0 / 7 Notes | ~8–10 hrs | `░░░░░░░░░░` 0% |
+| **06 · 🔀 Distributed Streaming (Kafka)** | ⏳ Scheduled | 0 / 6 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
+| **07 · 🛡️ Reliability & Resilience** | ⏳ Scheduled | 0 / 8 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
+| **08 · 🌐 Distributed Systems & Consensus** | ⏳ Scheduled | 0 / 10 Notes | ~15–20 hrs | `░░░░░░░░░░` 0% |
+| **09 · 🧩 Advanced Architecture Patterns** | ⏳ Scheduled | 0 / 7 Notes | ~8–12 hrs | `░░░░░░░░░░` 0% |
+| **10 · 🏢 System Design Case Studies** | ⏳ Scheduled | 0 / 16 Systems | ~25–40 hrs | `░░░░░░░░░░` 0% |
+
+--- -->
 
 ## 📖 Table of Contents
 
-### 01 · 🧱 Fundamentals
+<details open>
+<summary><b>01 · 🧱 Fundamentals (2 Notes) — <code>CLICK TO TOGGLE</code></b></summary>
 
-**[What is HLD?](01-fundamentals/01-hld-fundamentals.md)**  
-`What is HLD` · `Functional Requirements` · `Non-Functional Requirements` · `Architecture Thinking`
+<br>
 
-**[Capacity Estimation](01-fundamentals/02-capacity-estimation.md)**  
-`Capacity Estimation` · `Traffic Estimation` · `RPS` · `Read vs Write Traffic` · `Peak RPS`
+| Topic | Direct Link | Key Concepts / Keywords | Status |
+|---|---|---|:---:|
+| **HLD Fundamentals** | [01-hld-fundamentals.md](01-fundamentals/01-hld-fundamentals.md) | `What is HLD` · `Functional Requirements` · `Non-Functional Requirements` · `Architecture Thinking` | ✅ |
+| **Capacity Estimation** | [02-capacity-estimation.md](01-fundamentals/02-capacity-estimation.md) | `Traffic Estimation` · `RPS` · `Read vs Write Traffic` · `Storage & Bandwidth` · `Memory` | ✅ |
 
----
+</details>
 
-### 02 · 🏗️ Architecture Fundamentals
+<br>
 
-**[Client-Server Architecture](02-architecture-fundamentals/01-client-server-architecture.md)**  
-`Client-Server` · `Shared State` · `Business Logic` · `Source of Truth` · `Trust Boundary`
+<details open>
+<summary><b>02 · 🏗️ Architecture Fundamentals (12 Notes) — <code>CLICK TO TOGGLE</code></b></summary>
 
-**[Request / Response Flow](02-architecture-fundamentals/02-request-response-flow.md)**  
-`HTTP` · `Request / Response` · `Headers` · `Status Codes` · `Request Lifecycle`
+<br>
 
-**[Backend Request Processing Pipeline](02-architecture-fundamentals/03-backend-request-processing-pipeline.md)**  
-`Backend Pipeline` · `Validation` · `Authentication` · `Authorization` · `Business Logic`
+| Topic | Direct Link | Key Concepts / Keywords | Status |
+|---|---|---|:---:|
+| **Client-Server Architecture** | [01-client-server-architecture.md](02-architecture-fundamentals/01-client-server-architecture.md) | `Shared State` · `Business Logic` · `Source of Truth` · `Trust Boundary` · `Validation` | ✅ |
+| **Request / Response Flow** | [02-request-response-flow.md](02-architecture-fundamentals/02-request-response-flow.md) | `HTTP Protocol` · `Headers` · `Status Codes` · `Request Anatomy` · `HTTP Versions` | ✅ |
+| **Backend Request Processing Pipeline** | [03-backend-request-processing-pipeline.md](02-architecture-fundamentals/03-backend-request-processing-pipeline.md) | `Backend Pipeline` · `Validation` · `Authentication` · `Authorization` · `Business Logic` | ✅ |
+| **Complete Request Lifecycle** | [04-complete-request-lifecycle.md](02-architecture-fundamentals/04-complete-request-lifecycle.md) | `End-to-End Journey` · `DNS Lookup` · `Load Balancer` · `Backend` · `Database` | ✅ |
+| **Failure Points** | [05-failure-points.md](02-architecture-fundamentals/05-failure-points.md) | `Reliability` · `Single Point of Failure` · `Cascading Failures` · `Fault Tolerance` | ✅ |
+| **Latency** | [06-lattency.md](02-architecture-fundamentals/06-lattency.md) | `Network Latency` · `Processing Time` · `Parallel Processing` · `Bottleneck Analysis` | ✅ |
+| **Real-World Request Flows** | [07-real-world-request-flows.md](02-architecture-fundamentals/07-real-world-request-flows.md) | `Real-World Flows` · `Caching` · `Database Interactions` · `Sync vs Async` | ✅ |
+| **3-Layer Architecture** | [08-3-layer-architecture.md](02-architecture-fundamentals/08-3-layer-architecture.md) | `Presentation Layer` · `Business Layer` · `Data Access Layer` · `Loose Coupling` | ✅ |
+| **Networking Fundamentals** | [09-networking-fundamentals.md](02-architecture-fundamentals/09-networking-fundamentals.md) | `IP & Ports` · `TCP vs UDP` · `TCP Handshake` · `HTTP over TCP` · `TLS` | ✅ |
+| **DNS (Domain Name System)** | [10-dns.md](02-architecture-fundamentals/10-dns.md) | `Domain Resolution` · `Recursive Resolver` · `Root / TLD / Auth` · `A / AAAA / CNAME` · `TTL` | ✅ |
+| **Load Balancer** | [11-load-balancer.md](02-architecture-fundamentals/11-load-balancer.md) | `L4 vs L7` · `Algorithms` · `Round Robin / Least Conn` · `Health Checks` · `High Availability` | ✅ |
+| **Reverse Proxy** | [12-reverse-proxy.md](02-architecture-fundamentals/12-reverse-proxy.md) | `NGINX` · `TLS Termination` · `Routing` · `Reverse Proxy Caching` · `Proxy vs Load Balancer` | ✅ |
 
-**[Complete Request Lifecycle](02-architecture-fundamentals/04-complete-request-lifecycle.md)**  
-`Request Lifecycle` · `End-to-End Journey` · `DNS` · `Load Balancer` · `Database`
+</details>
 
-**[Failure Points](02-architecture-fundamentals/05-failure-points.md)**  
-`Failure Points` · `Reliability` · `Cascading Failures` · `Single Point of Failure`
+<br>
 
-**[Latency](02-architecture-fundamentals/06-lattency.md)**  
-`Latency` · `Network Latency` · `Processing Time` · `Parallel Processing` · `Bottlenecks`
+<details>
+<summary><b>03–10 · 🚀 Advanced Systems Modules (Upcoming) — <code>CLICK TO EXPAND</code></b></summary>
 
-**[Real-World Request Flows](02-architecture-fundamentals/07-real-world-request-flows.md)**  
-`Real-World Flows` · `Architecture` · `Caching` · `Database Interaction` · `Async`
+<br>
 
-**[3-Layer Architecture](02-architecture-fundamentals/08-3-layer-architecture.md)**  
-`3-Layer Architecture` · `Presentation Layer` · `Business Layer` · `Data Access Layer` · `Loose Coupling`
+| Module | Core Topics | Status |
+|---|---|:---:|
+| **03 · 🗄️ Databases** | `SQL vs NoSQL` · `Replication Lag` · `Partitioning` · `Sharding Keys` · `ACID & Isolation` | ⏳ |
+| **04 · ⚡ Caching** | `Cache-Aside` · `Write-Through / Write-Back` · `Eviction (LRU/LFU)` · `Cache Stampede` · `Redis` | ⏳ |
+| **05 · 📨 Messaging** | `Queues` · `Workers` · `Acknowledgements` · `Dead Letter Queue` · `Idempotency` | ⏳ |
+| **06 · 🔀 Kafka** | `Topics & Partitions` · `Consumer Groups` · `Offset Commits` · `Delivery Semantics` | ⏳ |
+| **07 · 🛡️ Reliability** | `Timeouts & Retries` · `Exponential Backoff & Jitter` · `Circuit Breakers` · `Rate Limiting` | ⏳ |
+| **08 · 🌐 Distributed Systems** | `CAP Theorem` · `Strong vs Eventual Consistency` · `Consensus (Raft/Paxos)` · `Distributed Locks` | ⏳ |
+| **09 · 🧩 Advanced Patterns** | `CQRS` · `Event Sourcing` · `Saga Pattern` · `Outbox Pattern` | ⏳ |
+| **10 · 🏢 Case Studies** | `URL Shortener` · `Instagram` · `WhatsApp` · `Notification System` · `Payment Gateway` | ⏳ |
 
-**[HLD Networking Fundamentals](02-architecture-fundamentals/09-networking-fundamentals.md)**  
-`Networking` · `IP Address & Port` · `TCP vs UDP` · `HTTP over TCP` · `HTTPS / TLS`
-
-**[DNS](02-architecture-fundamentals/10-dns.md)**  
-`DNS` · `Domain Name` · `Resolver` · `Root / TLD / Authoritative` · `DNS Records` · `TTL`
-
-**[Load Balancer](02-architecture-fundamentals/11-load-balancer.md)**  
-`Load Balancer` · `L4 vs L7` · `Algorithms` · `Health Checks` · `High Availability`
-
-**[Reverse Proxy](02-architecture-fundamentals/12-reverse-proxy.md)**  
-`Reverse Proxy` · `NGINX` · `TLS Termination` · `Routing` · `Caching` · `Reverse Proxy vs Load Balancer`
-
----
-<!-- 
-### 03 · 🗄️ Databases
-
-| Topic |
-|---|
-| [SQL vs NoSQL](03-databases/sql-vs-nosql.md) |
-| [Replication](03-databases/replication.md) |
-| [Partitioning](03-databases/partitioning.md) |
-| [Sharding](03-databases/sharding.md) |
+</details>
 
 ---
 
-### 04 · ⚡ Caching
+<!-- ## ⚡ Quick Concept Index
 
-| Topic |
-|---|
-| [Caching Fundamentals](04-caching/caching-fundamentals.md) |
-| [Cache Strategies](04-caching/cache-strategies.md) |
-| [Cache Invalidation](04-caching/cache-invalidation.md) |
+*Instantly jump to specific high-frequency interview topics across the codebase:*
 
----
+| Concept / Question | Relevant Note | Key Takeaway / Highlight |
+|---|---|---|
+| **L4 vs L7 Load Balancing** | [11-load-balancer.md](02-architecture-fundamentals/11-load-balancer.md) | L4 routes at TCP layer (IP:Port); L7 inspects HTTP headers, cookies, and URLs for smart routing. |
+| **Forward Proxy vs Reverse Proxy** | [12-reverse-proxy.md](02-architecture-fundamentals/12-reverse-proxy.md) | Forward proxy sits in front of clients (privacy/egress filter); Reverse proxy sits in front of backends (ingress/security/caching). |
+| **DNS Resolution Lifecycle** | [10-dns.md](02-architecture-fundamentals/10-dns.md) | Browser Cache → OS Cache → Recursive Resolver → Root DNS → TLD DNS → Authoritative DNS Server. |
+| **TCP 3-Way Handshake** | [09-networking-fundamentals.md](02-architecture-fundamentals/09-networking-fundamentals.md) | Connection establishment: SYN → SYN-ACK → ACK before HTTP data frame transmission. |
+| **3-Layer Architecture Rules** | [08-3-layer-architecture.md](02-architecture-fundamentals/08-3-layer-architecture.md) | Presentation Layer → Application/Business Layer → Data Access Layer. Dependencies strictly flow downwards. |
+| **Client Trust Boundary** | [01-client-server-architecture.md](02-architecture-fundamentals/01-client-server-architecture.md) | Clients are untrusted presentation containers. The backend server owns authoritative state & enforces business rules. |
+| **Capacity Estimation Formulas** | [02-capacity-estimation.md](01-fundamentals/02-capacity-estimation.md) | Daily Requests ÷ 86,400 = Avg RPS; Peak RPS = Avg RPS × 2–5; Storage = Records × Record Size + Overhead. |
 
-### 05 · 📨 Messaging
+--- -->
 
-| Topic |
-|---|
-| [Queues](05-messaging/queues.md) |
-| [Workers](05-messaging/workers.md) |
-| [Acknowledgements](05-messaging/acknowledgements.md) |
-| [Dead Letter Queue](05-messaging/dead-letter-queue.md) |
+<!-- ## 🎯 Self-Assessment Checklist
 
----
+*Use this checklist to track mastery before technical interviews:*
 
-### 06 · 🔀 Kafka
+- [x] **HLD Fundamentals:** Can articulate Functional vs Non-Functional requirements and the requirement-driven design flow.
+- [x] **Capacity Estimation:** Can compute RPS, peak traffic, storage growth over 5 years, bandwidth (Mbps/Gbps), and cache RAM.
+- [x] **Client-Server Architecture:** Understands why clients cannot be trusted for security, state mutation, or business validation.
+- [x] **Request/Response Lifecycle:** Can trace an HTTP request end-to-end through DNS, TCP, TLS, Load Balancer, Reverse Proxy, Pipeline, and DB.
+- [x] **3-Layer Architecture:** Can define Presentation, Business, and Data Access layers with change isolation and loose coupling.
+- [x] **Networking:** Understands TCP vs UDP trade-offs, HTTP/1.1 vs HTTP/2 vs HTTP/3, keep-alive connections, and latency origins.
+- [x] **DNS:** Understands A, AAAA, CNAME, NS records, TTL caching, recursive resolution, and failover DNS routing.
+- [x] **Load Balancing & Proxies:** Can select L4 vs L7 balancing, explain Round Robin / Least Connections, TLS Termination, and NGINX setup.
 
-| Topic |
-|---|
-| [Kafka Basics](06-kafka/kafka-basics.md) |
-| [Partitions](06-kafka/partitions.md) |
-| [Consumer Groups](06-kafka/consumer-groups.md) |
-| [Delivery Semantics](06-kafka/delivery-semantics.md) |
+--- -->
 
----
-
-### 07 · 🛡️ Reliability
-
-| Topic |
-|---|
-| [Timeouts](07-reliability/timeouts.md) |
-| [Retries](07-reliability/retries.md) |
-| [Circuit Breaker](07-reliability/circuit-breaker.md) |
-| [Idempotency](07-reliability/idempotency.md) |
-
----
-
-### 08 · 🌐 Distributed Systems
-
-| Topic |
-|---|
-| [CAP Theorem](08-distributed-systems/cap-theorem.md) |
-| [Consistency](08-distributed-systems/consistency.md) |
-| [Consensus (Raft/Paxos)](08-distributed-systems/consensus.md) |
-| [Distributed Locks](08-distributed-systems/distributed-locks.md) |
-
----
-
-### 09 · 🧩 Advanced Patterns
-
-| Topic |
-|---|
-| [CQRS](09-advanced/cqrs.md) |
-| [Event Sourcing](09-advanced/event-sourcing.md) |
-| [Saga Pattern](09-advanced/saga.md) |
-| [Outbox Pattern](09-advanced/outbox-pattern.md) |
-
----
-
-### 10 · 🏢 Case Studies
-
-| System |
-|---|
-| [URL Shortener](10-case-studies/url-shortener.md) |
-| [Instagram](10-case-studies/instagram.md) |
-| [WhatsApp](10-case-studies/whatsapp.md) |
-| [Notification System](10-case-studies/notification-system.md) |
-| [Payment System](10-case-studies/payment-system.md) |
-
----
--->
 ## 🧭 How to Use This Repo
 
-Each topic follows a standard note format:
+Each topic follows a standard, interview-ready note format:
 
-**Problem → Prerequisites → Theory → Diagram → Code (when relevant) → Real Example → Interview Questions → Mistakes / Gotchas → Key Takeaways → References (when useful).**
+```text
+❓ Problem
+   ↓
+📋 Prerequisites
+   ↓
+🧠 Theory
+   ↓
+🗺️ Diagram
+   ↓
+🏗️ Real Example
+   ↓
+🎯 Interview Q&A
+   ↓
+⚠️ Gotchas
+   ↓
+🔑 Key Takeaways
+```
 
-Start with `01-fundamentals/` and work through the topics in order.
-
-The keywords listed below each topic make it easy to search for specific concepts using `Ctrl+F` or GitHub search.
+1. **Sequential Study:** Follow the **Roadmap** in order starting from `01-fundamentals/`.
+2. **Interview Revision:** Jump directly to **Interview Questions** and **Mistakes / Gotchas** in each note before technical rounds.
+3. **Quick Lookup:** Use `Ctrl+F` or the [⚡ Quick Concept Index](#-quick-concept-index) to review specific mechanisms.
 
 ---
+
 ## 🗺️ Roadmap
 
 ```text
