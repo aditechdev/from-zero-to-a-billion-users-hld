@@ -16,18 +16,47 @@ how a system scales from a handful of users to a billion.
 `Capacity Estimation` · `Traffic Estimation` · `RPS` · `Read vs Write Traffic` · `Peak RPS`
 
 ---
-<!-- 
-### 02 · 🏗️ Architecture
 
-| Topic |
-|---|
-| [Client-Server](02-architecture/client-server.md) |
-| [Load Balancer](02-architecture/load-balancer.md) |
-| [Reverse Proxy](02-architecture/reverse-proxy.md) |
-| [API Gateway](02-architecture/api-gateway.md) |
+### 02 · 🏗️ Architecture Fundamentals
+
+**[Client-Server Architecture](02-architecture-fundamentals/01-client-server-architecture.md)**  
+`Client-Server` · `Shared State` · `Business Logic` · `Source of Truth` · `Trust Boundary`
+
+**[Request / Response Flow](02-architecture-fundamentals/02-request-response-flow.md)**  
+`HTTP` · `Request / Response` · `Headers` · `Status Codes` · `Request Lifecycle`
+
+**[Backend Request Processing Pipeline](02-architecture-fundamentals/03-backend-request-processing-pipeline.md)**  
+`Backend Pipeline` · `Validation` · `Authentication` · `Authorization` · `Business Logic`
+
+**[Complete Request Lifecycle](02-architecture-fundamentals/04-complete-request-lifecycle.md)**  
+`Request Lifecycle` · `End-to-End Journey` · `DNS` · `Load Balancer` · `Database`
+
+**[Failure Points](02-architecture-fundamentals/05-failure-points.md)**  
+`Failure Points` · `Reliability` · `Cascading Failures` · `Single Point of Failure`
+
+**[Latency](02-architecture-fundamentals/06-lattency.md)**  
+`Latency` · `Network Latency` · `Processing Time` · `Parallel Processing` · `Bottlenecks`
+
+**[Real-World Request Flows](02-architecture-fundamentals/07-real-world-request-flows.md)**  
+`Real-World Flows` · `Architecture` · `Caching` · `Database Interaction` · `Async`
+
+**[3-Layer Architecture](02-architecture-fundamentals/08-3-layer-architecture.md)**  
+`3-Layer Architecture` · `Presentation Layer` · `Business Layer` · `Data Access Layer` · `Loose Coupling`
+
+**[HLD Networking Fundamentals](02-architecture-fundamentals/09-networking-fundamentals.md)**  
+`Networking` · `IP Address & Port` · `TCP vs UDP` · `HTTP over TCP` · `HTTPS / TLS`
+
+**[DNS](02-architecture-fundamentals/10-dns.md)**  
+`DNS` · `Domain Name` · `Resolver` · `Root / TLD / Authoritative` · `DNS Records` · `TTL`
+
+**[Load Balancer](02-architecture-fundamentals/11-load-balancer.md)**  
+`Load Balancer` · `L4 vs L7` · `Algorithms` · `Health Checks` · `High Availability`
+
+**[Reverse Proxy](02-architecture-fundamentals/12-reverse-proxy.md)**  
+`Reverse Proxy` · `NGINX` · `TLS Termination` · `Routing` · `Caching` · `Reverse Proxy vs Load Balancer`
 
 ---
-
+<!-- 
 ### 03 · 🗄️ Databases
 
 | Topic |
@@ -281,7 +310,7 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Real-World Example                          ✅
 │   └── Common Mistakes & Mental Model              ✅
 │   
-├── HLD Networking Fundamentals (~1 hr)             
+├── HLD Networking Fundamentals (~1 hr)             ✅
 │   ├── IP Address & Port                           ✅
 │   ├── TCP vs UDP                                  ✅
 │   ├── TCP Connection — Conceptual                 ✅
