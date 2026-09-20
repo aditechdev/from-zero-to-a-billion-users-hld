@@ -334,20 +334,22 @@ The keywords listed below each topic make it easy to search for specific concept
 │   ├── Horizontal Scaling + Load Balancer          ✅
 │   └── Common Mistakes & Mental Model              ✅
 │
-├── Reverse Proxy (~30 min)                         🟡 IN PROGRESS
-│   ├── What Problem Does a Reverse Proxy Solve?    ⬅️ NEXT
-│   ├── Forward Proxy vs Reverse Proxy              ⏳
-│   ├── Client → Reverse Proxy → Backend            ⏳
-│   ├── Backend Protection                          ⏳
-│   ├── TLS Termination — Conceptual                ⏳
-│   ├── Routing                                     ⏳
-│   ├── Caching — Conceptual                        ⏳
-│   ├── Compression — Conceptual                    ⏳
-│   ├── Reverse Proxy vs Load Balancer              ⏳
-│   └── Common Deployment Example                   ⏳
+├── Reverse Proxy (~30 min)                         ✅
+│   ├── What Problem Does a Reverse Proxy Solve?    ✅
+│   ├── Forward Proxy vs Reverse Proxy              ✅
+│   ├── Client → Reverse Proxy → Backend            ✅
+│   ├── Backend Protection                          ✅
+│   ├── TLS Termination — Conceptual                ✅
+│   ├── Routing                                     ✅
+│   ├── Caching — Conceptual                        ✅
+│   ├── Compression — Conceptual                    ✅
+│   ├── Reverse Proxy vs Load Balancer              ✅
+│   ├── NGINX                                       ✅
+│   ├── Caddy                                       ✅
+│   └── Common Deployment Example                   ✅
 │
-├── API Gateway (~40 min)                           ⏳
-│   ├── What Problem Does API Gateway Solve?        ⏳
+├── API Gateway (~40 min)                           🟡 IN PROGRESS
+│   ├── What Problem Does API Gateway Solve?        ⬅️ NEXT
 │   ├── Client → Gateway → Services                 ⏳
 │   ├── Single Entry Point                          ⏳
 │   ├── Routing                                     ⏳
