@@ -77,31 +77,81 @@
 
 ---
 
+
 ## 🧭 How to Use This Repo
 
 Each topic follows a standard, interview-ready note format:
 
-```text
-❓ Problem
-   ↓
-📋 Prerequisites
-   ↓
-🧠 Theory
-   ↓
-🗺️ Diagram
-   ↓
-🏗️ Real Example
-   ↓
-🎯 Interview Q&A
-   ↓
-⚠️ Gotchas
-   ↓
-🔑 Key Takeaways
+``` mermaid
+flowchart TD
+
+    START(["🚀<br/><b>ENGINEERING PROBLEM</b>"])
+
+    START --> FOUNDATION
+
+    subgraph FOUNDATION["①  ENGINEERING FOUNDATIONS"]
+        direction LR
+
+        A["❓<br/><b>Problem</b><br/>Define the challenge"]
+        B["📋<br/><b>Prerequisites</b><br/>Build the context"]
+        C["🧠<br/><b>Core Concepts</b><br/>Understand the internals"]
+        D["🏛️<br/><b>Architecture</b><br/>Connect the components"]
+
+        A --> B --> C --> D
+    end
+
+    FOUNDATION --> PRODUCTION
+
+    subgraph PRODUCTION["②  PRODUCTION ENGINEERING"]
+        direction LR
+
+        E["🏗️<br/><b>Real-World Design</b><br/>Apply the concept"]
+        F["⚡<br/><b>Scale & Reliability</b><br/>Handle real traffic"]
+        G["⚠️<br/><b>Failure Modes</b><br/>Find weak points"]
+        H["🔄<br/><b>Trade-offs</b><br/>Make decisions"]
+
+        E --> F --> G --> H
+    end
+
+    PRODUCTION --> MASTERY
+
+    subgraph MASTERY["③  INTERVIEW MASTERY"]
+        direction LR
+
+        I["🎯<br/><b>Interview Q&A</b><br/>Explain clearly"]
+        J["🧩<br/><b>Case Studies</b><br/>Design end-to-end"]
+        K["🔑<br/><b>Key Takeaways</b><br/>Retain what matters"]
+
+        I --> J --> K
+    end
+
+    MASTERY --> FINISH
+
+    FINISH(["💼<br/><b>BACKEND ENGINEER READY</b>"])
+
+
+    classDef start fill:#312e81,stroke:#818cf8,stroke-width:3px,color:#ffffff;
+    classDef foundation fill:#172554,stroke:#6366f1,stroke-width:2px,color:#f8fafc;
+    classDef production fill:#083344,stroke:#06b6d4,stroke-width:2px,color:#f8fafc;
+    classDef mastery fill:#052e16,stroke:#10b981,stroke-width:2px,color:#f8fafc;
+    classDef finish fill:#064e3b,stroke:#34d399,stroke-width:3px,color:#ffffff;
+
+    class START start;
+    class A,B,C,D foundation;
+    class E,F,G,H production;
+    class I,J,K mastery;
+    class FINISH finish;
+
+    style FOUNDATION fill:#0f172a,stroke:#6366f1,stroke-width:2px,color:#c7d2fe;
+    style PRODUCTION fill:#0f172a,stroke:#06b6d4,stroke-width:2px,color:#a5f3fc;
+    style MASTERY fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#a7f3d0;
+
+    linkStyle default stroke:#64748b,stroke-width:2px;
 ```
 
 1. **Sequential Study:** Follow the **Roadmap** in order starting from `01-fundamentals/`.
 2. **Interview Revision:** Jump directly to **Interview Questions** and **Mistakes / Gotchas** in each note before technical rounds.
-3. **Quick Lookup:** Use `Ctrl+F` or the [⚡ Quick Concept Index](#-quick-concept-index) to review specific mechanisms.
+3. **Quick Lookup:** Use `Ctrl+F` or search keywords to review specific mechanisms.
 
 ---
 
