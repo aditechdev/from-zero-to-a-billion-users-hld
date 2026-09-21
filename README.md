@@ -376,7 +376,7 @@ flowchart TD
 │   ├── Caddy                                       ✅
 │   └── Common Deployment Example                   ✅
 │
-├── API Gateway (~40 min)                           🟡 IN PROGRESS
+├── API Gateway (~60–75 min)                        🟡 IN PROGRESS
 │   ├── What Problem Does API Gateway Solve?        ⬅️ NEXT
 │   ├── Client → Gateway → Services                 ⏳
 │   ├── Single Entry Point                          ⏳
@@ -387,9 +387,38 @@ flowchart TD
 │   ├── Aggregation — Conceptual                    ⏳
 │   ├── API Gateway vs Reverse Proxy                ⏳
 │   ├── API Gateway vs Load Balancer                ⏳
+│   │
+│   ├── API Gateway Failure & Reliability
+│   │   ├── Gateway as Potential SPOF
+│   │   ├── Multiple Gateway Instances
+│   │   ├── Gateway Load Balancing
+│   │   ├── Health Checks
+│   │   ├── Timeouts
+│   │   ├── Backend Failure
+│   │   ├── Partial Failure
+│   │   └── Gateway Overload
+│   │
 │   └── Common Mistakes & Trade-offs                ⏳
 │
-├── CDN
+├── BFF — Backend for Frontend (~40–50 min) ⏳
+│   ├── What Problem Does BFF Solve?
+│   ├── Why One API Doesn't Fit Every Client
+│   ├── Mobile vs Web Requirements
+│   ├── BFF Architecture
+│   ├── Client → BFF → Services
+│   ├── BFF vs API Gateway
+│   ├── BFF vs Aggregation
+│   ├── BFF + API Gateway
+│   ├── Response Shaping
+│   ├── Client-Specific APIs
+│   ├── Backend Composition
+│   ├── Mobile BFF Example
+│   ├── Web BFF Example
+│   ├── When BFF Makes Sense
+│   ├── When BFF Is Overengineering
+│   └── Common Mistakes & Trade-offs
+│
+├── CDN (~45–60 min) ⏳
 │    ├── What Problem Does CDN Solve?⏳
 │    ├── Edge Servers⏳
 │    ├── Origin Server⏳
@@ -399,7 +428,7 @@ flowchart TD
 │    ├── Static vs Dynamic Content⏳
 │    ├── CDN + Object Storage⏳
 │    ├── CDN + Backend⏳
-│    └── CDN vs Application Cache   ⏳                ⏳
+│    └── CDN vs Application Cache                   ⏳
 │
 ├── Horizontal Scaling (~30 min)                    ⏳
 │   ├── What Problem Does Scaling Solve?            ⏳
