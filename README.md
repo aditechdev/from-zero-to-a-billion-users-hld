@@ -157,6 +157,12 @@ flowchart TD
 
 ## 🗺️ Roadmap
 
+```
+✅ Completed
+🟡 In Progress
+⏳ Pending
+```
+
 ```text
 01 · HLD FUNDAMENTALS (~8–11 hrs)                  ✅
 │
@@ -883,31 +889,48 @@ flowchart TD
 └── Reliability vs Complexity
 ```
 ```
-18 · SYSTEM DESIGN CASE STUDIES (~25–40+ hrs)
+18 · SYSTEM DESIGN CASE STUDIES
 │
-├── Beginner (~5–7 hrs)
-│   ├── URL Shortener (~2 hrs)
-│   ├── Pastebin (~1.5–2 hrs)
-│   └── Rate Limiter (~1.5–2 hrs)
+├── System Design Interview Framework
+│   ├── Requirement Clarification
+│   ├── Functional Requirements
+│   ├── Non-Functional Requirements
+│   ├── Assumptions
+│   ├── Capacity Estimation
+│   ├── API Design
+│   ├── High-Level Architecture
+│   ├── Data Modeling
+│   ├── Deep Dives
+│   ├── Bottleneck Analysis
+│   ├── Failure Scenarios
+│   ├── Security
+│   ├── Observability
+│   ├── Disaster Recovery
+│   └── Architecture Trade-offs
 │
-├── Intermediate (~7–10 hrs)
-│   ├── File Storage / Upload (~2 hrs)
-│   ├── Notification System (~2 hrs)
-│   ├── Chat System (~2–3 hrs)
-│   └── WhatsApp (~2–3 hrs)
+├── Beginner
+│   ├── URL Shortener
+│   ├── Pastebin
+│   └── Rate Limiter
 │
-├── Advanced (~9–13 hrs)
-│   ├── Instagram (~2–3 hrs)
-│   ├── News Feed (~2 hrs)
-│   ├── YouTube (~2–3 hrs)
-│   ├── Uber (~2–3 hrs)
-│   └── Food Delivery (~2 hrs)
+├── Intermediate
+│   ├── File Storage / Upload
+│   ├── Notification System
+│   ├── Chat System
+│   └── WhatsApp
 │
-└── High-Scale / Interview (~6–10+ hrs)
-    ├── Payment System (~2–3 hrs)
-    ├── Ticket Booking (~2 hrs)
-    ├── Ride Matching (~2–3 hrs)
-    └── Distributed Job Scheduler (~2–3 hrs)
+├── Advanced
+│   ├── Instagram
+│   ├── News Feed
+│   ├── YouTube
+│   ├── Uber
+│   └── Food Delivery
+│
+└── High-Scale / Interview
+    ├── Payment System
+    ├── Ticket Booking
+    ├── Ride Matching
+    └── Distributed Job Scheduler
 
 ```
 
